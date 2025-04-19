@@ -1,9 +1,12 @@
-// import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <>
-      <div className="text-3xl font-bold">Netflix</div>
-    </>
+    <div>
+      <Navbar />
+      <main className="pt-20">
+        <div className="text-3xl font-bold p-6">Content</div>
+      </main>
+    </div>
   );
 }
