@@ -1,0 +1,1316 @@
+{
+  "trending": [
+    {
+      "id": 100088,
+      "title": "The Last of Us",
+      "rating": 8.6,
+      "genre": [18],
+      "release_date": "Unknown",
+      "poster_path": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+      "backdrop_path": "/7dowXHcFccjmxf0YZYxDFkfVq65.jpg",
+      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival."
+    },
+    {
+      "id": 822119,
+      "title": "Captain America: Brave New World",
+      "rating": 6.158,
+      "genre": [28, 53, 878],
+      "release_date": "2025",
+      "poster_path": "/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+      "backdrop_path": "/jhL4eTpccoZSVehhcR8DKLSBHZy.jpg",
+      "description": "After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red."
+    },
+    {
+      "id": 42009,
+      "title": "Black Mirror",
+      "rating": 8.292,
+      "genre": [10765, 18, 9648],
+      "release_date": "Unknown",
+      "poster_path": "/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg",
+      "backdrop_path": "/dg3OindVAGZBjlT3xYKqIAdukPL.jpg",
+      "description": "Twisted tales run wild in this mind-bending anthology series that reveals humanity's worst traits, greatest innovations and more."
+    },
+    {
+      "id": 1197306,
+      "title": "A Working Man",
+      "rating": 6.3,
+      "genre": [28, 80, 53],
+      "release_date": "2025",
+      "poster_path": "/xUkUZ8eOnrOnnJAfusZUqKYZiDu.jpg",
+      "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+      "description": "Levon Cade left behind a decorated military career in the black ops to live a simple life working construction. But when his boss's daughter, who is like family to him, is taken by human traffickers, his search to bring her home uncovers a world of corruption far greater than he ever could have imagined."
+    },
+    {
+      "id": 1233413,
+      "title": "Sinners",
+      "rating": 7.32,
+      "genre": [18, 27, 53],
+      "release_date": "2025",
+      "poster_path": "/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+      "backdrop_path": "/oUgVgGaNqV9Y0Zdyjc1kCpzIe4G.jpg",
+      "description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back."
+    },
+    {
+      "id": 1195506,
+      "title": "Novocaine",
+      "rating": 6.852,
+      "genre": [28, 35, 53],
+      "release_date": "2025",
+      "poster_path": "/xmMHGz9dVRaMY6rRAlEX4W0Wdhm.jpg",
+      "backdrop_path": "/sNx1A3822kEbqeUxvo5A08o4N7o.jpg",
+      "description": "When the girl of his dreams is kidnapped, everyman Nate turns his inability to feel pain into an unexpected strength in his fight to get her back."
+    },
+    {
+      "id": 696506,
+      "title": "Mickey 17",
+      "rating": 6.907,
+      "genre": [878, 35, 12],
+      "release_date": "2025",
+      "poster_path": "/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg",
+      "backdrop_path": "/hNA73rnG4PjSwgojaC2gbO1f8Rt.jpg",
+      "description": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job… to die, for a living."
+    },
+    {
+      "id": 1045938,
+      "title": "G20",
+      "rating": 6.601,
+      "genre": [28, 9648, 18],
+      "release_date": "2025",
+      "poster_path": "/wv6oWAleCJZUk5htrGg413t3GCy.jpg",
+      "backdrop_path": "/k32XKMjmXMGeydykD32jfER3BVI.jpg",
+      "description": "After the G20 Summit is overtaken by terrorists, President Danielle Sutton must bring all her statecraft and military experience to defend her family and her fellow leaders."
+    },
+    {
+      "id": 950387,
+      "title": "A Minecraft Movie",
+      "rating": 6.1,
+      "genre": [10751, 35, 12, 14],
+      "release_date": "2025",
+      "poster_path": "/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+      "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+      "description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve."
+    },
+    {
+      "id": 202555,
+      "title": "Daredevil: Born Again",
+      "rating": 8.218,
+      "genre": [18, 80],
+      "release_date": "Unknown",
+      "poster_path": "/9lLuhV703HGCbnz6FxnqCwIwzAZ.jpg",
+      "backdrop_path": "/hrsRczdsAHBLTDzlIqt82bxY0Tt.jpg",
+      "description": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course."
+    },
+    {
+      "id": 1013601,
+      "title": "The Alto Knights",
+      "rating": 6.146,
+      "genre": [36, 18, 80],
+      "release_date": "2025",
+      "poster_path": "/95KmR0xNuZZ6DNESDwLKWGIBvMg.jpg",
+      "backdrop_path": "/iveeHEGtkq0dBJZtOcoK650sZ6x.jpg",
+      "description": "Two of New York's most notorious organized crime bosses, Frank Costello and Vito Genovese, vie for control of the city's streets. Once the best of friends, petty jealousies and a series of betrayals place them on a deadly collision course that will reshape the Mafia (and America) forever."
+    },
+    {
+      "id": 71914,
+      "title": "The Wheel of Time",
+      "rating": 7.673,
+      "genre": [10765, 18],
+      "release_date": "Unknown",
+      "poster_path": "/eVm7vI0VTUKYzgpOXCUu9qz3L4E.jpg",
+      "backdrop_path": "/1P3QtW1IkivqDrKbbwuR0zCYIf8.jpg",
+      "description": "Follow Moiraine, a member of the shadowy and influential all-female organization called the “Aes Sedai” as she embarks on a dangerous, world-spanning journey with five young men and women. Moiraine believes one of them might be the reincarnation of an incredibly powerful individual, whom prophecies say will either save humanity or destroy it."
+    },
+    {
+      "id": 1244944,
+      "title": "The Woman in the Yard",
+      "rating": 6.169,
+      "genre": [27, 9648],
+      "release_date": "2025",
+      "poster_path": "/n0WS2TsNcS6dtaZKzxipyO7LuCJ.jpg",
+      "backdrop_path": "/3lEV4CoKoeT2cZ4fbKEJugZcw6Z.jpg",
+      "description": "In the aftermath of her husband's death, widow Ramona's struggle to raise her two kids is hindered by the arrival of a mysterious woman with supernatural abilities."
+    },
+    {
+      "id": 37854,
+      "title": "One Piece",
+      "rating": 8.7,
+      "genre": [10759, 35, 16],
+      "release_date": "Unknown",
+      "poster_path": "/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
+      "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+      "description": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!"
+    },
+    {
+      "id": 275388,
+      "title": "The Glass Dome",
+      "rating": 7.18,
+      "genre": [18, 80],
+      "release_date": "Unknown",
+      "poster_path": "/yn4PIMnXJ42lObinYtmIvQ9lVtm.jpg",
+      "backdrop_path": "/w8NsengOrWLapYBVutr52gwWMio.jpg",
+      "description": "When her friend's daughter goes missing, criminologist Lejla joins the search — and must confront the haunting trauma of her own childhood abduction."
+    },
+    {
+      "id": 239770,
+      "title": "Doctor Who",
+      "rating": 6.5,
+      "genre": [10759, 18, 10765],
+      "release_date": "Unknown",
+      "poster_path": "/2JP6NSmBwxg75uTcIHiv5R8PpPi.jpg",
+      "backdrop_path": "/gDtZQmfzvErZpeXOVeCBQE9WkSF.jpg",
+      "description": "The Doctor and his companion travel across time and space encountering incredible friends and foes."
+    },
+    {
+      "id": 1087891,
+      "title": "The Amateur",
+      "rating": 6.614,
+      "genre": [53, 28],
+      "release_date": "2025",
+      "poster_path": "/SNEoUInCa5fAgwuEBMIMBGvkkh.jpg",
+      "backdrop_path": "/yMoEGh8kDEwqsoJumnQLwFJ9V6h.jpg",
+      "description": "After his life is turned upside down when his wife is killed in a London terrorist attack, a brilliant but introverted CIA decoder takes matters into his own hands when his supervisors refuse to take action."
+    },
+    {
+      "id": 240993,
+      "title": "Ransom Canyon",
+      "rating": 6.7,
+      "genre": [18, 37],
+      "release_date": "Unknown",
+      "poster_path": "/vp6A0mthGwZmnowmLxqNPF0lVRN.jpg",
+      "backdrop_path": "/29P64FqDp0UVa9oJsIl49PHn5tH.jpg",
+      "description": "Passions run deep in a small Texas town, as three ranching dynasties fight for their land, their legacies and the people they love."
+    },
+    {
+      "id": 157744,
+      "title": "1923",
+      "rating": 8.207,
+      "genre": [18, 37],
+      "release_date": "Unknown",
+      "poster_path": "/vNJWr0xh7W5IDzFTnVzWhw6KoJr.jpg",
+      "backdrop_path": "/vIioWssbxRtEkIzgj8r0pCWYkYM.jpg",
+      "description": "Follow a new generation of the Dutton family during the early twentieth century when pandemics, historic drought, the end of Prohibition and the Great Depression all plague the mountain west, and the Duttons who call it home."
+    },
+    {
+      "id": 1241436,
+      "title": "Warfare",
+      "rating": 7.2,
+      "genre": [10752, 28],
+      "release_date": "2025",
+      "poster_path": "/oXsDTDt1MqxJreROd2cbd2FMOZ2.jpg",
+      "backdrop_path": "/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event."
+    }
+  ],
+  "topRated": [
+    {
+      "id": 278,
+      "title": "The Shawshank Redemption",
+      "rating": 8.708,
+      "genre": [18, 80],
+      "release_date": "1994",
+      "poster_path": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
+      "description": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope."
+    },
+    {
+      "id": 238,
+      "title": "The Godfather",
+      "rating": 8.687,
+      "genre": [18, 80],
+      "release_date": "1972",
+      "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "backdrop_path": "/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+      "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge."
+    },
+    {
+      "id": 240,
+      "title": "The Godfather Part II",
+      "rating": 8.57,
+      "genre": [18, 80],
+      "release_date": "1974",
+      "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+      "backdrop_path": "/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+      "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba."
+    },
+    {
+      "id": 424,
+      "title": "Schindler's List",
+      "rating": 8.564,
+      "genre": [18, 36, 10752],
+      "release_date": "1993",
+      "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "backdrop_path": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+      "description": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II."
+    },
+    {
+      "id": 389,
+      "title": "12 Angry Men",
+      "rating": 8.547,
+      "genre": [18],
+      "release_date": "1957",
+      "poster_path": "/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg",
+      "backdrop_path": "/bxgTSUenZDHNFerQ1whRKplrMKF.jpg",
+      "description": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other."
+    },
+    {
+      "id": 129,
+      "title": "Spirited Away",
+      "rating": 8.537,
+      "genre": [16, 10751, 14],
+      "release_date": "2001",
+      "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+      "backdrop_path": "/6oaL4DP75yABrd5EbC4H2zq5ghc.jpg",
+      "description": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family."
+    },
+    {
+      "id": 155,
+      "title": "The Dark Knight",
+      "rating": 8.519,
+      "genre": [18, 28, 80, 53],
+      "release_date": "2008",
+      "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "backdrop_path": "/oOv2oUXcAaNXakRqUPxYq5lJURz.jpg",
+      "description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
+    },
+    {
+      "id": 19404,
+      "title": "Dilwale Dulhania Le Jayenge",
+      "rating": 8.5,
+      "genre": [35, 18, 10749],
+      "release_date": "1995",
+      "poster_path": "/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
+      "backdrop_path": "/90ez6ArvpO8bvpyIngBuwXOqJm5.jpg",
+      "description": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga."
+    },
+    {
+      "id": 497,
+      "title": "The Green Mile",
+      "rating": 8.505,
+      "genre": [14, 18, 80],
+      "release_date": "1999",
+      "poster_path": "/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
+      "backdrop_path": "/vxJ08SvwomfKbpboCWynC3uqUg4.jpg",
+      "description": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution."
+    },
+    {
+      "id": 496243,
+      "title": "Parasite",
+      "rating": 8.5,
+      "genre": [35, 53, 18],
+      "release_date": "2019",
+      "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "backdrop_path": "/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
+      "description": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident."
+    }
+  ],
+  "action": [
+    {
+      "id": 1197306,
+      "title": "A Working Man",
+      "rating": 6.3,
+      "genre": [28, 80, 53],
+      "release_date": "2025",
+      "poster_path": "/xUkUZ8eOnrOnnJAfusZUqKYZiDu.jpg",
+      "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+      "description": "Levon Cade left behind a decorated military career in the black ops to live a simple life working construction. But when his boss's daughter, who is like family to him, is taken by human traffickers, his search to bring her home uncovers a world of corruption far greater than he ever could have imagined."
+    },
+    {
+      "id": 324544,
+      "title": "In the Lost Lands",
+      "rating": 6.276,
+      "genre": [14, 12, 28],
+      "release_date": "2025",
+      "poster_path": "/iHf6bXPghWB6gT8kFkL1zo00x6X.jpg",
+      "backdrop_path": "/op3qmNhvwEvyT7UFyPbIfQmKriB.jpg",
+      "description": "A queen sends the powerful and feared sorceress Gray Alys to the ghostly wilderness of the Lost Lands in search of a magical power, where she and her guide, the drifter Boyce, must outwit and outfight both man and demon."
+    },
+    {
+      "id": 1045938,
+      "title": "G20",
+      "rating": 6.596,
+      "genre": [28, 9648, 18],
+      "release_date": "2025",
+      "poster_path": "/wv6oWAleCJZUk5htrGg413t3GCy.jpg",
+      "backdrop_path": "/k32XKMjmXMGeydykD32jfER3BVI.jpg",
+      "description": "After the G20 Summit is overtaken by terrorists, President Danielle Sutton must bring all her statecraft and military experience to defend her family and her fellow leaders."
+    },
+    {
+      "id": 1195506,
+      "title": "Novocaine",
+      "rating": 6.851,
+      "genre": [28, 35, 53],
+      "release_date": "2025",
+      "poster_path": "/xmMHGz9dVRaMY6rRAlEX4W0Wdhm.jpg",
+      "backdrop_path": "/sNx1A3822kEbqeUxvo5A08o4N7o.jpg",
+      "description": "When the girl of his dreams is kidnapped, everyman Nate turns his inability to feel pain into an unexpected strength in his fight to get her back."
+    },
+    {
+      "id": 1293286,
+      "title": "Gunslingers",
+      "rating": 6.944,
+      "genre": [37, 28],
+      "release_date": "2025",
+      "poster_path": "/O7REXWPANWXvX2jhQydHjAq2DV.jpg",
+      "backdrop_path": "/zksO4lVnRKRoaSYzh2EDn2Z3Pel.jpg",
+      "description": "When the most wanted man in America surfaces in a small Kentucky town, his violent history -- and a blood-thirsty mob seeking vengeance and a king’s ransom -- soon follow. As brothers face off against one another and bullets tear the town to shreds, this lightning-fast gunslinger makes his enemies pay the ultimate price for their greed."
+    },
+    {
+      "id": 822119,
+      "title": "Captain America: Brave New World",
+      "rating": 6.161,
+      "genre": [28, 53, 878],
+      "release_date": "2025",
+      "poster_path": "/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+      "backdrop_path": "/jhL4eTpccoZSVehhcR8DKLSBHZy.jpg",
+      "description": "After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red."
+    },
+    {
+      "id": 1312833,
+      "title": "A Knight's War",
+      "rating": 5,
+      "genre": [27, 28, 14],
+      "release_date": "2025",
+      "poster_path": "/janjdSMrTRGtPrI1p9uOX66jv7x.jpg",
+      "backdrop_path": "/cJCW78MZsyyXBKHo4V25WctK00V.jpg",
+      "description": "A fearless knight braves a deadly realm to save the Chosen One’s soul. Facing witches, demons, and brutal foes, he discovers her return could ignite chaos and doom humanity."
+    },
+    {
+      "id": 1353117,
+      "title": "Home Sweet Home: Rebirth",
+      "rating": 6.736,
+      "genre": [27, 14, 53, 9648, 28],
+      "release_date": "2025",
+      "poster_path": "/9rCBCm9cyI4JfLEhx3EncyncMR3.jpg",
+      "backdrop_path": "/wmqpE7p2dUCEgCnovuovoNXaCXr.jpg",
+      "description": "When a city is overrun with a demonically-possessed crowd, a cop must find the source of evil to save his family."
+    },
+    {
+      "id": 1125899,
+      "title": "Cleaner",
+      "rating": 6.6,
+      "genre": [28, 53],
+      "release_date": "2025",
+      "poster_path": "/mwzDApMZAGeYCEVjhegKvCzDX0W.jpg",
+      "backdrop_path": "/gsQJOfeW45KLiQeEIsom94QPQwb.jpg",
+      "description": "When a group of radical activists take over an energy company's annual gala, seizing 300 hostages, an ex-soldier turned window cleaner suspended 50 storeys up on the outside of the building must save those trapped inside, including her younger brother."
+    },
+    {
+      "id": 939243,
+      "title": "Sonic the Hedgehog 3",
+      "rating": 7.731,
+      "genre": [28, 878, 35, 10751, 12, 14],
+      "release_date": "2024",
+      "poster_path": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+      "backdrop_path": "/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+      "description": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet."
+    },
+    {
+      "id": 1229730,
+      "title": "Carjackers",
+      "rating": 6.175,
+      "genre": [28, 12],
+      "release_date": "2025",
+      "poster_path": "/wbkPMTz2vVai7Ujyp0ag7AM9SrO.jpg",
+      "backdrop_path": "/is9bmV6uYXu7LjZGJczxrjJDlv8.jpg",
+      "description": "By day, they're invisible—valets, hostesses, and bartenders at a luxury hotel. By night, they're the Carjackers, a crew of skilled drivers who track and rob wealthy clients on the road. As they plan their ultimate heist, the hotel director hires a ruthless hitman, to stop them at all costs. With danger closing in, can Nora, Zoe, Steve, and Prestance pull off their biggest score yet?"
+    },
+    {
+      "id": 1373723,
+      "title": "The Codes of War",
+      "rating": 6.263,
+      "genre": [28, 10752],
+      "release_date": "2025",
+      "poster_path": "/oXeiQAfRK90pxxhP5iKPXQqAIN1.jpg",
+      "backdrop_path": "/ibF5XVxTzf1ayzZrmiJqgeQ39Qk.jpg",
+      "description": "War stories about family, ethics and honor include the true story of two U.S. Marines who in a span of six seconds, must stand their ground to stop a suicide truck bomb, a Navy Corpsman who attempts to hold on to his humanity, and a WW2 soldier who gets separated from his squad and is forced to re-evaluate his code."
+    },
+    {
+      "id": 1195585,
+      "title": "The Hard Hit",
+      "rating": 7,
+      "genre": [28, 53, 80],
+      "release_date": "2023",
+      "poster_path": "/whkFbOZTamHeugEG95jvQehSzAH.jpg",
+      "backdrop_path": "/fzv87rT0jlAkh5Uf9PpIlUj6Nj8.jpg",
+      "description": "An Interpol agent hunting the head of a global crime syndicate tracks his target to Las Vegas, but when the criminal organization kills his wife and daughter, he goes above the law to get his revenge."
+    },
+    {
+      "id": 1195430,
+      "title": "Deva",
+      "rating": 6.036,
+      "genre": [28, 53, 9648, 80],
+      "release_date": "2025",
+      "poster_path": "/qxtXzAlEPxmjHILU8k8wduvBSdo.jpg",
+      "backdrop_path": "/lqHt4icP1GTaNBeVTxTrwTZdoAW.jpg",
+      "description": "Dev Ambre, a ruthless cop, loses his memory in an accident just after he has finished solving a murder case and now has to reinvestigate it while keeping his memory loss a secret from everyone except DCP Farhan Khan."
+    },
+    {
+      "id": 1126166,
+      "title": "Flight Risk",
+      "rating": 6.104,
+      "genre": [28, 53],
+      "release_date": "2025",
+      "poster_path": "/q0bCG4NX32iIEsRFZqRtuvzNCyZ.jpg",
+      "backdrop_path": "/hwlyY7LJdEFbCPaGNXiskKKmJ5X.jpg",
+      "description": "A U.S. Marshal escorts a government witness to trial after he's accused of getting involved with a mob boss, only to discover that the pilot who is transporting them is also a hitman sent to assassinate the informant. After they subdue him, they're forced to fly together after discovering that there are others attempting to eliminate them."
+    },
+    {
+      "id": 1087891,
+      "title": "The Amateur",
+      "rating": 6.611,
+      "genre": [53, 28],
+      "release_date": "2025",
+      "poster_path": "/SNEoUInCa5fAgwuEBMIMBGvkkh.jpg",
+      "backdrop_path": "/yMoEGh8kDEwqsoJumnQLwFJ9V6h.jpg",
+      "description": "After his life is turned upside down when his wife is killed in a London terrorist attack, a brilliant but introverted CIA decoder takes matters into his own hands when his supervisors refuse to take action."
+    },
+    {
+      "id": 1261050,
+      "title": "The Quiet Ones",
+      "rating": 5.7,
+      "genre": [28, 18],
+      "release_date": "2024",
+      "poster_path": "/7NLY1jNwtZX1yVzwVoBeAhaBE8i.jpg",
+      "backdrop_path": "/9OO6I25MHhCDd0XwNk4oZl0fpwB.jpg",
+      "description": "In 2008, a group of men from Denmark and across Europe pull off the biggest heist of all time on Danish soil. Kasper, a boxer with few chances left in life, is offered the opportunity to plan the robbery by its foreign initiators."
+    },
+    {
+      "id": 1103432,
+      "title": "Bloody Escape: Bats out of Hell",
+      "rating": 5.5,
+      "genre": [16, 28, 878],
+      "release_date": "2024",
+      "poster_path": "/lWKtVX5oEgcLbMYMaWiyes6c4IB.jpg",
+      "backdrop_path": "/rKTRky21Sk5jpfMBUeHYamqshkt.jpg",
+      "description": "After being turned into a cyborg, Kisaragi faces pursuit from vampires and vengeful yakuza."
+    },
+    {
+      "id": 1297763,
+      "title": "Batman Ninja vs. Yakuza League",
+      "rating": 6.603,
+      "genre": [16, 28],
+      "release_date": "2025",
+      "poster_path": "/sVVT6GYFErVv0Lcc9NvqCu0iOxO.jpg",
+      "backdrop_path": "/e807jDKiFcntZS32ze88X6I96OD.jpg",
+      "description": "The Batman family has returned to the present to discover that Japan has disappeared, and a giant island - Hinomoto - is now in the sky over Gotham City.  At the top sit the Yakuza, a group of superpowered individuals who reign without honor or humanity and look suspiciously like the Justice League. Now, it’s up to Batman and his allies to save Gotham!"
+    },
+    {
+      "id": 1356039,
+      "title": "Counterattack",
+      "rating": 8.375,
+      "genre": [28, 12, 53],
+      "release_date": "2025",
+      "poster_path": "/38I76hGcFY6xB47pjm7pZwkfuAF.jpg",
+      "backdrop_path": "/deUWVEgNh2IGjShyymZhaYP40ye.jpg",
+      "description": "When a hostage rescue mission creates a new enemy, Capt. Guerrero and his elite soldiers must face an ambush by a criminal group."
+    }
+  ],
+  "comedy": [
+    {
+      "id": 950387,
+      "title": "A Minecraft Movie",
+      "rating": 6.1,
+      "genre": [10751, 35, 12, 14],
+      "release_date": "2025",
+      "poster_path": "/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+      "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+      "description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve."
+    },
+    {
+      "id": 1195506,
+      "title": "Novocaine",
+      "rating": 6.852,
+      "genre": [28, 35, 53],
+      "release_date": "2025",
+      "poster_path": "/xmMHGz9dVRaMY6rRAlEX4W0Wdhm.jpg",
+      "backdrop_path": "/sNx1A3822kEbqeUxvo5A08o4N7o.jpg",
+      "description": "When the girl of his dreams is kidnapped, everyman Nate turns his inability to feel pain into an unexpected strength in his fight to get her back."
+    },
+    {
+      "id": 1241982,
+      "title": "Moana 2",
+      "rating": 7.083,
+      "genre": [16, 12, 10751, 35],
+      "release_date": "2024",
+      "poster_path": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+      "backdrop_path": "/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
+      "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced."
+    },
+    {
+      "id": 939243,
+      "title": "Sonic the Hedgehog 3",
+      "rating": 7.731,
+      "genre": [28, 878, 35, 10751, 12, 14],
+      "release_date": "2024",
+      "poster_path": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+      "backdrop_path": "/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+      "description": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet."
+    },
+    {
+      "id": 696506,
+      "title": "Mickey 17",
+      "rating": 6.907,
+      "genre": [878, 35, 12],
+      "release_date": "2025",
+      "poster_path": "/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg",
+      "backdrop_path": "/hNA73rnG4PjSwgojaC2gbO1f8Rt.jpg",
+      "description": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job… to die, for a living."
+    },
+    {
+      "id": 1403735,
+      "title": "Laila",
+      "rating": 0,
+      "genre": [35, 10749],
+      "release_date": "2025",
+      "poster_path": "/l4gsNxFPGpzbq0D6QK1a8vO1lBz.jpg",
+      "backdrop_path": "/vNUwK5P42m81uG57kKI1WxSZwIQ.jpg",
+      "description": "Sonu Model, a renowned beautician from the old city, is forced to disguise himself as Laila, leading to a series of comedic, romantic, and action-packed events. Chaos ensues in this hilarious laugh riot"
+    },
+    {
+      "id": 1101401,
+      "title": "Sugar Baby",
+      "rating": 6.563,
+      "genre": [53, 35],
+      "release_date": "2024",
+      "poster_path": "/z7NyxmdJ1ypn3Y6BVizjGODuBdO.jpg",
+      "backdrop_path": "/kYqEsUtilXXcb7FDfGIUaDq7j5F.jpg",
+      "description": "An enterprising Sugar Baby is offered $30,000 to move in with her Sugar Daddy for the week, but soon discovers the sinister secrets trapped within his home."
+    },
+    {
+      "id": 1226572,
+      "title": "Superboys of Malegaon",
+      "rating": 8,
+      "genre": [35, 18],
+      "release_date": "2025",
+      "poster_path": "/l5PDjfWpC9uY5HdF5cbsJ4wjqoq.jpg",
+      "backdrop_path": "/olExC8areYxKPu3pmKWRsgPz0Et.jpg",
+      "description": "The residents of Malegaon look to Bollywood cinema for a much-needed escape from daily drudgery. Amateur filmmaker Nasir Shaikh gets inspired to make a film for the people of Malegaon, by the people of Malegaon. He bands together his ragtag group of friends to bring his vision to life, thereby bringing a fresh lease of life into the town."
+    },
+    {
+      "id": 1302916,
+      "title": "Heart Eyes",
+      "rating": 6.318,
+      "genre": [27, 35, 10749],
+      "release_date": "2025",
+      "poster_path": "/ebqttF1Vjgde6uSFBEw9mta7Hd3.jpg",
+      "backdrop_path": "/vh5FIqfosYaLWxCmZfSPjgUWWfn.jpg",
+      "description": "When the \"Heart Eyes Killer\" strikes Seattle, a pair of co-workers pulling overtime on Valentine's Day are mistaken for a couple by the elusive couple-hunting killer. Now, they must spend the most romantic night of the year running for their lives."
+    },
+    {
+      "id": 1304594,
+      "title": "Una pequeña confusión",
+      "rating": 7.5,
+      "genre": [35],
+      "release_date": "2024",
+      "poster_path": "/ApXr9phfcvIX06tLGhxOH2kmndb.jpg",
+      "backdrop_path": "/8U1xsLUtWSN8WlH0xzwYGZxHMUi.jpg",
+      "description": "Lola and Cuau, a progressive middle-class pair, and Iñigo and Majo, a young conservative, well-heeled duo, turn to artificial insemination as a last resort to have children. In a madcap twist based on actual events, a mix-up at the clinic results in each mom-to-be carrying the other one's baby."
+    },
+    {
+      "id": 1212855,
+      "title": "Fight or Flight",
+      "rating": 5.5,
+      "genre": [28, 35, 53],
+      "release_date": "2025",
+      "poster_path": "/x4nWnfgJvL045rcUCSJzfgIIY9i.jpg",
+      "backdrop_path": "/6J259Zuq09Bt2PLUNeTS5a3DwLZ.jpg",
+      "description": "A mercenary takes on the job of tracking down a target on a plane but must protect her when they're surrounded by people trying to kill both of them."
+    },
+    {
+      "id": 1064486,
+      "title": "Memoir of a Snail",
+      "rating": 7.945,
+      "genre": [16, 18, 35],
+      "release_date": "2024",
+      "poster_path": "/57AgZv1ITeBLShiNdchZ5153evs.jpg",
+      "backdrop_path": "/jl2YIADk391yc6Qjy9JhgCRkHJk.jpg",
+      "description": "Forcibly separated from her twin brother when they are orphaned, a melancholic misfit learns how to find confidence within herself amid the clutter of misfortunes and everyday life."
+    },
+    {
+      "id": 519182,
+      "title": "Despicable Me 4",
+      "rating": 7.055,
+      "genre": [16, 10751, 35, 878],
+      "release_date": "2024",
+      "poster_path": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+      "backdrop_path": "/lgkPzcOSnTvjeMnuFzozRO5HHw1.jpg",
+      "description": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run."
+    },
+    {
+      "id": 1104845,
+      "title": "Plankton: The Movie",
+      "rating": 6.8,
+      "genre": [16, 12, 35, 10751, 14],
+      "release_date": "2025",
+      "poster_path": "/hGaUNLF5VZbg9ovPTyjm9Rv5xWz.jpg",
+      "backdrop_path": "/lsgT602GYV8ts97sKH1gWFtQs1k.jpg",
+      "description": "Plankton's tangled love story with his sentient computer wife goes sideways when she takes a stand — and decides to destroy the world without him."
+    },
+    {
+      "id": 533535,
+      "title": "Deadpool & Wolverine",
+      "rating": 7.604,
+      "genre": [28, 35, 878],
+      "release_date": "2024",
+      "poster_path": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+      "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+      "description": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine."
+    },
+    {
+      "id": 1160956,
+      "title": "Panda Plan",
+      "rating": 6.928,
+      "genre": [28, 35],
+      "release_date": "2024",
+      "poster_path": "/hbO8MVrDuT8YxqeJD6DMxcamY9N.jpg",
+      "backdrop_path": "/dXoBFj9Yl9HDRcDVQubkuVCh26N.jpg",
+      "description": "International action star Jackie Chan is invited to the adoption ceremony of a rare baby panda, but after an international crime syndicate attempts to kidnap the bear, Jackie has to save the bear using his stunt work skills."
+    },
+    {
+      "id": 1077782,
+      "title": "Old Guy",
+      "rating": 5.647,
+      "genre": [28, 35],
+      "release_date": "2024",
+      "poster_path": "/ulVVfNY8bmy1RbHfY4zi3fOwGzh.jpg",
+      "backdrop_path": "/AtciHGgpOU7ngsVhXbS2S5Spdlv.jpg",
+      "description": "Stuck at a dead end but vying for the love of spunky club manager Anata, aging contract killer Danny Dolinski is thrilled when The Company pulls him back in the field, but only to train Gen Z newcomer Wihlborg, a prodigy assassin with an attitude."
+    },
+    {
+      "id": 1022789,
+      "title": "Inside Out 2",
+      "rating": 7.556,
+      "genre": [16, 12, 35, 10751],
+      "release_date": "2024",
+      "poster_path": "/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+      "backdrop_path": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+      "description": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone."
+    },
+    {
+      "id": 1141233,
+      "title": "Super Papa",
+      "rating": 5.6,
+      "genre": [35, 10751],
+      "release_date": "2024",
+      "poster_path": "/1jqG652MICyDGeXyHfWooBaIcQq.jpg",
+      "backdrop_path": "/5tR7ERtILQLnwdKOqnk0aC2Bcbx.jpg",
+      "description": "For the 8th birthday of his son Gaby, Tom, unwittingly offers him a book ... which contains only blank pages. Faced with Gaby's disappointment and in order not to lose face, Tom pretends that it is a magic book: all you have to do is write your dreams in it for them to come true. This is how, totally overwhelmed, Tom will do everything he can to make his son's dreams come true, even the wildest ones!"
+    },
+    {
+      "id": 1254786,
+      "title": "The Life List",
+      "rating": 6.861,
+      "genre": [10749, 35, 18],
+      "release_date": "2025",
+      "poster_path": "/5fg98cVo7da7OIK45csdLSd4NaU.jpg",
+      "backdrop_path": "/4ybnt8HD4slaCykBXNZwZaLd5LQ.jpg",
+      "description": "When her mother sends her on a quest to complete a teenage bucket list, a young woman uncovers family secrets, finds romance — and rediscovers herself."
+    }
+  ],
+  "horror": [
+    {
+      "id": 1244944,
+      "title": "The Woman in the Yard",
+      "rating": 6.141,
+      "genre": [27, 9648],
+      "release_date": "2025",
+      "poster_path": "/n0WS2TsNcS6dtaZKzxipyO7LuCJ.jpg",
+      "backdrop_path": "/3lEV4CoKoeT2cZ4fbKEJugZcw6Z.jpg",
+      "description": "In the aftermath of her husband's death, widow Ramona's struggle to raise her two kids is hindered by the arrival of a mysterious woman with supernatural abilities."
+    },
+    {
+      "id": 1312833,
+      "title": "A Knight's War",
+      "rating": 5,
+      "genre": [27, 28, 14],
+      "release_date": "2025",
+      "poster_path": "/janjdSMrTRGtPrI1p9uOX66jv7x.jpg",
+      "backdrop_path": "/cJCW78MZsyyXBKHo4V25WctK00V.jpg",
+      "description": "A fearless knight braves a deadly realm to save the Chosen One’s soul. Facing witches, demons, and brutal foes, he discovers her return could ignite chaos and doom humanity."
+    },
+    {
+      "id": 1353117,
+      "title": "Home Sweet Home: Rebirth",
+      "rating": 6.714,
+      "genre": [27, 14, 53, 9648, 28],
+      "release_date": "2025",
+      "poster_path": "/9rCBCm9cyI4JfLEhx3EncyncMR3.jpg",
+      "backdrop_path": "/wmqpE7p2dUCEgCnovuovoNXaCXr.jpg",
+      "description": "When a city is overrun with a demonically-possessed crowd, a cop must find the source of evil to save his family."
+    },
+    {
+      "id": 1233413,
+      "title": "Sinners",
+      "rating": 7.6,
+      "genre": [18, 27, 53],
+      "release_date": "2025",
+      "poster_path": "/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+      "backdrop_path": "/oUgVgGaNqV9Y0Zdyjc1kCpzIe4G.jpg",
+      "description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back."
+    },
+    {
+      "id": 1208808,
+      "title": "Night Shift",
+      "rating": 6.405,
+      "genre": [27],
+      "release_date": "2024",
+      "poster_path": "/iSSx9Bys64vlOkvkyKXtp19P7Re.jpg",
+      "backdrop_path": "/o5vasl0xbZWWKQnAlaBTSgntHH2.jpg",
+      "description": "A young nurse with a domestic abuse past starts working the night shift at a small hospital, where, during the night, the ghost of a nurse materializes."
+    },
+    {
+      "id": 1282980,
+      "title": "825 Forest Road",
+      "rating": 5.837,
+      "genre": [27, 53],
+      "release_date": "2025",
+      "poster_path": "/ohESp5Nw49OD4ExCeNYCEIGX2iq.jpg",
+      "backdrop_path": "/jiKwojRdwMYsDEMxQp5NFS3sOKb.jpg",
+      "description": "After a family tragedy, Chuck Wilson hopes to start a new life in Ashland Falls with his wife Maria and little sister Elizabeth, but he quickly discovers that the town has a dark history of being haunted by a ghostly woman who drives residents to suicide."
+    },
+    {
+      "id": 1020414,
+      "title": "Peter Pan's Neverland Nightmare",
+      "rating": 5,
+      "genre": [27, 53, 14],
+      "release_date": "2025",
+      "poster_path": "/mOR1Ks0EcXocwMV4EPv4letz0F5.jpg",
+      "backdrop_path": "/nhx0ttmAS2w8e6hyIcKoNvgHoix.jpg",
+      "description": "Wendy Darling strikes out in an attempt to rescue her brother Michael from the clutches of the evil Peter Pan who intends to send him to Neverland. Along the way she meets a twisted Tinkerbell, who is hooked on what she thinks is fairy dust."
+    },
+    {
+      "id": 1302916,
+      "title": "Heart Eyes",
+      "rating": 6.318,
+      "genre": [27, 35, 10749],
+      "release_date": "2025",
+      "poster_path": "/ebqttF1Vjgde6uSFBEw9mta7Hd3.jpg",
+      "backdrop_path": "/vh5FIqfosYaLWxCmZfSPjgUWWfn.jpg",
+      "description": "When the \"Heart Eyes Killer\" strikes Seattle, a pair of co-workers pulling overtime on Valentine's Day are mistaken for a couple by the elusive couple-hunting killer. Now, they must spend the most romantic night of the year running for their lives."
+    },
+    {
+      "id": 1029880,
+      "title": "Nightwatch: Demons Are Forever",
+      "rating": 5.922,
+      "genre": [27, 53, 9648],
+      "release_date": "2023",
+      "poster_path": "/7Bj9qbmTiBdOmVlHeQqoEjsDxul.jpg",
+      "backdrop_path": "/opNdWurarqYxrzqpVRPyZrbWb3K.jpg",
+      "description": "Martin's daughter, Emma, takes up a night watch job to find out what happened to her parents almost thirty years ago. A meeting with Wörmer in his cell pulls the serial killer out of his coma and sets in motion a chain of fateful events."
+    },
+    {
+      "id": 1388366,
+      "title": "Popeye the Slayer Man",
+      "rating": 6.006,
+      "genre": [27],
+      "release_date": "2025",
+      "poster_path": "/nVwu3mN7hr1yF467pGct3yQFM41.jpg",
+      "backdrop_path": "/xkjWiRQtrenqGRWO2Enry2JIl4d.jpg",
+      "description": "A curious group of friends sneak into an abandoned spinach canning factory to film a documentary on the legend of the \"Sailor Man,\" who is said to haunt the factory and local docks."
+    },
+    {
+      "id": 1249385,
+      "title": "Ghost Game",
+      "rating": 3.84,
+      "genre": [27, 53],
+      "release_date": "2024",
+      "poster_path": "/kxxWBEn7qTN2xumSferCHbDudcT.jpg",
+      "backdrop_path": "/zvWnh0ABsJlco2tikliiATEKhLN.jpg",
+      "description": "As part of an internet challenge to live undetected in a stranger’s home, a daring couple target an infamous haunted house and endure a series of chilling incidents as they witness a family descending into madness."
+    },
+    {
+      "id": 1140847,
+      "title": "Cinderella's Revenge",
+      "rating": 5.446,
+      "genre": [14, 27],
+      "release_date": "2024",
+      "poster_path": "/cYB3SHhITJSbRoisgn9QQTP8YkZ.jpg",
+      "backdrop_path": "/dx8wpD04sWu8g9oDi9j0Vi1ocqQ.jpg",
+      "description": "Cinderella finds freedom from her wicked stepmother with the help of her fairy godmother. Only this time, they unleash a plan of bloody vengeance."
+    },
+    {
+      "id": 933260,
+      "title": "The Substance",
+      "rating": 7.1,
+      "genre": [27, 878],
+      "release_date": "2024",
+      "poster_path": "/cGm2qnmXx9tFabmzEIkJZjCJdQd.jpg",
+      "backdrop_path": "/pRjCDn51n9otE0AzpGRYGVWP1LB.jpg",
+      "description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself."
+    },
+    {
+      "id": 1062276,
+      "title": "Dark Match",
+      "rating": 5.077,
+      "genre": [28, 27],
+      "release_date": "2024",
+      "poster_path": "/6E6fBED3ix7FmrWUWZdeYG4vqK8.jpg",
+      "backdrop_path": "/7q5RVohE85yuQ9uZWXEXlHmfUOE.jpg",
+      "description": "A small-time wrestling company accepts a well-paying gig in a backwoods town only to learn, too late, that the community is run by a mysterious cult leader with devious plans for their match."
+    },
+    {
+      "id": 1084199,
+      "title": "Companion",
+      "rating": 7.1,
+      "genre": [27, 878, 53],
+      "release_date": "2025",
+      "poster_path": "/oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg",
+      "backdrop_path": "/sc1abgWNXc29wSBaerrjGBih06l.jpg",
+      "description": "During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them."
+    },
+    {
+      "id": 1190462,
+      "title": "Breathing In",
+      "rating": 4.923,
+      "genre": [27, 53, 18],
+      "release_date": "2023",
+      "poster_path": "/yy2dmnBlPhx21GUMUJUPxA9QUFp.jpg",
+      "backdrop_path": "/qgIloYWwLdDBOVeoPUQj6sHkg5s.jpg",
+      "description": "1901, South Africa. As the Second Anglo-Boer War rages on, a wounded General seeks refuge in the small home of a woman and her young daughter. As the hurt man settles in, he begins noticing that something is off about the two women, particularly the daughter, and before long, he’ll learn the real reason for why they’ve invited him and for how they’ve survived on their own for so long."
+    },
+    {
+      "id": 1301650,
+      "title": "Z Zone",
+      "rating": 6.733,
+      "genre": [27],
+      "release_date": "2025",
+      "poster_path": "/s6kFtdxfTC4xR8yDGbIjTgGEcFI.jpg",
+      "backdrop_path": "/19pr5CzgsBYs67FAJvke8GQxN4g.jpg",
+      "description": "In a remote corner of the world, a group of troubled youths finds themselves whisked away to a mysterious military base after a series of misbehaviors. Expecting little more than a stern reprimand, they are instead thrust into a world of secrets and shadows.  In a desperate bid for freedom, they must unravel the mysteries of the base and confront the sinister forces that lurk in the shadows. But with time running out and danger lurking around every corner, the odds of survival grow slimmer by the minute.  Courage, strength, and sacrifice, would they finally escape the clutches of the base and emerge from the darkness into the light?"
+    },
+    {
+      "id": 1178764,
+      "title": "Possession Street",
+      "rating": 10,
+      "genre": [27, 18],
+      "release_date": "2024",
+      "poster_path": "/uNrBz1wrWszAVvOoyWPySbXWoxz.jpg",
+      "backdrop_path": "/86uNq5q9s7LuzVHC8LrdXRMaslk.jpg",
+      "description": "When seven malevolent spirits are unleashed to possess the tenants of a dying mall, it falls to a jaded ex-stuntman, his headstrong daughter and a would-be Daoist priest to stop the undead before they spread onto the streets beyond."
+    },
+    {
+      "id": 1118031,
+      "title": "Apocalypse Z: The Beginning of the End",
+      "rating": 6.717,
+      "genre": [18, 28, 27],
+      "release_date": "2024",
+      "poster_path": "/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
+      "backdrop_path": "/lTYGtgDRygku7iiFLWyiEc4wLzz.jpg",
+      "description": "When a kind of rabies that transforms people into aggressive creatures spreads across the planet, Manel isolates himself at home with his cat, relying on his wits to survive; but soon they must go out in search of food, by land and by sea, dodging many dangers."
+    },
+    {
+      "id": 1124620,
+      "title": "The Monkey",
+      "rating": 5.8,
+      "genre": [27, 35],
+      "release_date": "2025",
+      "poster_path": "/yYa8Onk9ow7ukcnfp2QWVvjWYel.jpg",
+      "backdrop_path": "/6dC7ULfiutxwEAs7LjWHL2Tc7Zv.jpg",
+      "description": "When twin brothers find a mysterious wind-up monkey, a series of outrageous deaths tear their family apart. Twenty-five years later, the monkey begins a new killing spree forcing the estranged brothers to confront the cursed toy."
+    }
+  ],
+  "romance": [
+    {
+      "id": 1252309,
+      "title": "Ask Me What You Want",
+      "rating": 5.962,
+      "genre": [10749, 18],
+      "release_date": "2024",
+      "poster_path": "/76qnVxU2rPdVvipBN3DPQH6fVYB.jpg",
+      "backdrop_path": "/qiVrapzgrDO7c6yQTSvn0dhwsn8.jpg",
+      "description": "After his father's death, Eric Zimmerman travels to Spain to oversee his company's branches. In Madrid, he falls for Judith and engage in an intense, erotic relationship full of exploration. However, Eric fears his secret may end their affair."
+    },
+    {
+      "id": 1403735,
+      "title": "Laila",
+      "rating": 0,
+      "genre": [35, 10749],
+      "release_date": "2025",
+      "poster_path": "/l4gsNxFPGpzbq0D6QK1a8vO1lBz.jpg",
+      "backdrop_path": "/vNUwK5P42m81uG57kKI1WxSZwIQ.jpg",
+      "description": "Sonu Model, a renowned beautician from the old city, is forced to disguise himself as Laila, leading to a series of comedic, romantic, and action-packed events. Chaos ensues in this hilarious laugh riot"
+    },
+    {
+      "id": 950396,
+      "title": "The Gorge",
+      "rating": 7.731,
+      "genre": [10749, 878, 53],
+      "release_date": "2025",
+      "poster_path": "/7iMBZzVZtG0oBug4TfqDb9ZxAOa.jpg",
+      "backdrop_path": "/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+      "description": "Two highly trained operatives grow close from a distance after being sent to guard opposite sides of a mysterious gorge. When an evil below emerges, they must work together to survive what lies within."
+    },
+    {
+      "id": 1302916,
+      "title": "Heart Eyes",
+      "rating": 6.3,
+      "genre": [27, 35, 10749],
+      "release_date": "2025",
+      "poster_path": "/ebqttF1Vjgde6uSFBEw9mta7Hd3.jpg",
+      "backdrop_path": "/vh5FIqfosYaLWxCmZfSPjgUWWfn.jpg",
+      "description": "When the \"Heart Eyes Killer\" strikes Seattle, a pair of co-workers pulling overtime on Valentine's Day are mistaken for a couple by the elusive couple-hunting killer. Now, they must spend the most romantic night of the year running for their lives."
+    },
+    {
+      "id": 1010581,
+      "title": "My Fault",
+      "rating": 7.82,
+      "genre": [10749, 18],
+      "release_date": "2023",
+      "poster_path": "/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+      "backdrop_path": "/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg",
+      "description": "Noah must leave her city, boyfriend, and friends to move into William Leister's mansion, the flashy and wealthy husband of her mother Rafaela. As a proud and independent 17 year old, Noah resists living in a mansion surrounded by luxury. However, it is there where she meets Nick, her new stepbrother, and the clash of their strong personalities becomes evident from the very beginning."
+    },
+    {
+      "id": 1156593,
+      "title": "Your Fault",
+      "rating": 7.128,
+      "genre": [10749, 18],
+      "release_date": "2024",
+      "poster_path": "/1sQA7lfcF9yUyoLYC0e6Zo3jmxE.jpg",
+      "backdrop_path": "/k24eZq5I3jyz4htPkZCRpnUmBzE.jpg",
+      "description": "The love between Noah and Nick seems unwavering despite their parents' attempts to separate them. But his job and her entry into college open up their lives to new relationships that will shake the foundations of both their relationship and the Leister family itself."
+    },
+    {
+      "id": 1294203,
+      "title": "My Fault: London",
+      "rating": 7.472,
+      "genre": [10749, 18],
+      "release_date": "2025",
+      "poster_path": "/ttN5D6GKOwKWHmCzDGctAvaNMAi.jpg",
+      "backdrop_path": "/uJK0jjJ8QDOQw5lcNBwu059ht4D.jpg",
+      "description": "18-year-old Noah moves from America to London, with her mother who's recently fallen in love with William, a wealthy British businessman. Noah meets William’s son, bad-boy Nick, and soon discovers there is an attraction between them neither can avoid. As Noah spends the summer adjusting to her new life, her devastating past will catch up with her while falling in love for the first time."
+    },
+    {
+      "id": 1254786,
+      "title": "The Life List",
+      "rating": 6.868,
+      "genre": [10749, 35, 18],
+      "release_date": "2025",
+      "poster_path": "/5fg98cVo7da7OIK45csdLSd4NaU.jpg",
+      "backdrop_path": "/4ybnt8HD4slaCykBXNZwZaLd5LQ.jpg",
+      "description": "When her mother sends her on a quest to complete a teenage bucket list, a young woman uncovers family secrets, finds romance — and rediscovers herself."
+    },
+    {
+      "id": 1064213,
+      "title": "Anora",
+      "rating": 7.058,
+      "genre": [18, 35, 10749],
+      "release_date": "2024",
+      "poster_path": "/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg",
+      "backdrop_path": "/4YN6AfYIKyfZ1aB0cYEWROv76nU.jpg",
+      "description": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled."
+    },
+    {
+      "id": 597,
+      "title": "Titanic",
+      "rating": 7.905,
+      "genre": [18, 10749],
+      "release_date": "1997",
+      "poster_path": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+      "backdrop_path": "/sCzcYW9h55WcesOqA12cgEr9Exw.jpg",
+      "description": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912."
+    },
+    {
+      "id": 1059372,
+      "title": "Dear David",
+      "rating": 6.2,
+      "genre": [18, 10749, 14],
+      "release_date": "2023",
+      "poster_path": "/Ab1OedAN42deqjIkOu7X94nJwkG.jpg",
+      "backdrop_path": "/d1YxrmqIzS30haejpT7DcJMz3Md.jpg",
+      "description": "A secret fantasy blog might jeopardize the promising future of Laras, a talented student, when the blog is revealed to her entire school."
+    },
+    {
+      "id": 829557,
+      "title": "365 Days: This Day",
+      "rating": 5.9,
+      "genre": [10749, 18],
+      "release_date": "2022",
+      "poster_path": "/iLmG3HCXVyqXYbFvUO1rfOeGa3Z.jpg",
+      "backdrop_path": "/y73agOAJDvO48WbvuRt4rZrcFw3.jpg",
+      "description": "Laura and Massimo are back and hotter than ever. But the reunited couple's new beginning is complicated by Massimo’s family ties and a mysterious man who enters Laura’s life to win her heart and trust, at any cost."
+    },
+    {
+      "id": 1167366,
+      "title": "Uranus 2324",
+      "rating": 7.051,
+      "genre": [10749, 18, 878],
+      "release_date": "2024",
+      "poster_path": "/zTD9HytRG1nfP5pdOAYmPyXj05d.jpg",
+      "backdrop_path": "/xqO4sV74bfXpk4Yh5K9Yqa11Jcj.jpg",
+      "description": "Bonded in their youth and separated by tragedy, an astronaut and a free diver bend the laws of space and time in their efforts to be together again."
+    },
+    {
+      "id": 1450436,
+      "title": "Puri for Rent",
+      "rating": 10,
+      "genre": [18, 10749],
+      "release_date": "2025",
+      "poster_path": "/ry9AWnoAABgxAEzc3BwLHgf1H1b.jpg",
+      "backdrop_path": "/jHeoDYaoMs004f0feNo0eGBKVw1.jpg",
+      "description": "Aiko Garcia plays a desperate woman thrust into an unusual job. In desperate need of money after getting fired, Nancy finds herself accepting a job as a young and rich disabled man’s sexual partner. But can she let go of her dignity when the sex leads to love?"
+    },
+    {
+      "id": 1226406,
+      "title": "Love Hurts",
+      "rating": 5.902,
+      "genre": [28, 35, 10749],
+      "release_date": "2025",
+      "poster_path": "/skPPVeHoTTVVSJlb0Ib5vrqiuA4.jpg",
+      "backdrop_path": "/aGgr2Q07AcyiWPGODoofgZDUEHp.jpg",
+      "description": "A realtor is pulled back into the life he left behind after his former partner-in-crime resurfaces with an ominous message. With his crime-lord brother also on his trail, he must confront his past and the history he never fully buried."
+    },
+    {
+      "id": 321612,
+      "title": "Beauty and the Beast",
+      "rating": 6.971,
+      "genre": [10751, 14, 10749],
+      "release_date": "2017",
+      "poster_path": "/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg",
+      "backdrop_path": "/uU1Mt4JWhDvl4vKb3AfxNsorkoM.jpg",
+      "description": "A live-action adaptation of Disney's version of the classic tale of a cursed prince and a beautiful young woman who helps him break the spell."
+    },
+    {
+      "id": 402431,
+      "title": "Wicked",
+      "rating": 6.9,
+      "genre": [18, 10749, 14],
+      "release_date": "2024",
+      "poster_path": "/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
+      "backdrop_path": "/uKb22E0nlzr914bA9KyA5CVCOlV.jpg",
+      "description": "In the land of Oz, ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda at Shiz University, and the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West."
+    },
+    {
+      "id": 957119,
+      "title": "Sidelined: The QB and Me",
+      "rating": 5.896,
+      "genre": [35, 10749],
+      "release_date": "2025",
+      "poster_path": "/mSL6truNrWP1Bn9ng1rN0SkMI4f.jpg",
+      "backdrop_path": "/cmT2WYpFBRk4UjQ0P984BoF8Eba.jpg",
+      "description": "Dallas, a burdened but headstrong dancer, is determined to get into the best dance school in the country—her late mother’s alma mater. However, that dream is suddenly derailed when the cheeky yet secretly grieving football star, Drayton, crashes into her life with a unique story of his own. Will the two of them be able to grow into their dreams together, or will their dreams be sidelined?"
+    },
+    {
+      "id": 259872,
+      "title": "Skin. Like. Sun.",
+      "rating": 5.733,
+      "genre": [10749],
+      "release_date": "2009",
+      "poster_path": "/uCkANtG6ezb7hjRKVudY3PUcbvn.jpg",
+      "backdrop_path": "/dzY2ZYyPRbXcw8UOupHK3V5VQYk.jpg",
+      "description": "Real-life young couple Wim and Floor spend an afternoon in the sunwashed rooms of a crumbling home in Belgium. In a unique twist, this artistic erotic documentary is edited in nearly real-time. In the slowness, we get the build, the sweetness, and the sexiness. Forget about fingersnapping fast editing. Slow is where it’s at."
+    },
+    {
+      "id": 1445276,
+      "title": "A Love Too Captivating",
+      "rating": 0,
+      "genre": [10749, 16],
+      "release_date": "2025",
+      "poster_path": "/zESBv0bTqtb4ICJ9oYn2HFec8JV.jpg",
+      "backdrop_path": "/s5TJ2SkHookM77fSk4BvY2yCN5r.jpg",
+      "description": "Misuzu was branded a delinquent when a small incident left him isolated. But one day, he sees the top student, Kitahara, get surrounded by bullies and decides to help him out. That sparked Kitahara's interest in the lonely boy, but Misuzu pushes Kitahara away. \"If you get involved with me, you'll get ostracized by everyone else too.\" But it won't take long for Misuzu's resolve to falter..."
+    }
+  ],
+  "documentaries": [
+    {
+      "id": 1457124,
+      "title": "Titanic: The Digital Resurrection",
+      "rating": 8.8,
+      "genre": [99],
+      "release_date": "2025",
+      "poster_path": "/mJNpxvtUNRVOfhFwukNewSf3gkf.jpg",
+      "backdrop_path": "/tXJwsqVttZBTuuTI9iG2SilfOJT.jpg",
+      "description": "Using cutting-edge scanning technology and state-of-the-art CGI, a team of experts creates the first high-resolution 3D digital twin of the Titanic wreck. Through a groundbreaking immersive investigation, they uncover the ship’s final moments, shedding light on the acts of heroism and cowardice aboard—and revealing the true story behind the sinking of the “unsinkable” ship."
+    },
+    {
+      "id": 41264,
+      "title": "Africa Addio",
+      "rating": 6.3,
+      "genre": [99, 27],
+      "release_date": "1966",
+      "poster_path": "/fPLzCid2gk7eOCrYlXIBU24bTpO.jpg",
+      "backdrop_path": "/g961TJZSGL8RzWGwpFK3Us77SfM.jpg",
+      "description": "A chronicle of the violence that occurred in much of the African continent throughout the 1960s. As many African countries were transitioning from colonial rule to other forms of government, violent political upheavals were frequent. Revolutions in Zanzibar and Kenya in which thousands were killed are shown, the violence not only political; there is also extensive footage of hunters and poachers slaughtering different types of wild animals."
+    },
+    {
+      "id": 321883,
+      "title": "Minecraft: Into the Nether",
+      "rating": 8.1,
+      "genre": [99],
+      "release_date": "2015",
+      "poster_path": "/vLci7Om940xXupc4kUPTC2JoGWW.jpg",
+      "backdrop_path": "/3XaTaLyFoti99MgBYQk8UO41o1j.jpg",
+      "description": "Minecraft. The game that took the world by storm. Follow the story of how the Minecraft phenomenon has ploughed through the 21st century selling over 54 million copies worldwide on a multitude of platforms engaging an audience in the millions which is still continuing to grow. The game boasts the biggest digital world in gaming history with a fan base stretching to every corner of the globe. Youtube viewing numbers have grown and online participation has tripled over the last few years creating a new industry for enthusiastic gamers. Vast communities have been brought together through it's educational impact, YouTube celebrities, festivals and game events pushing the boundaries of technology and creativity to the limits."
+    },
+    {
+      "id": 1100287,
+      "title": "Making of The Last of Us",
+      "rating": 6.9,
+      "genre": [99],
+      "release_date": "2023",
+      "poster_path": "/nter1KTaQjmkGCjvSu5u01FoecP.jpg",
+      "backdrop_path": "/lpZRUK5AuFW4Rw6bISIWOBJhS7P.jpg",
+      "description": "Featuring extensive interviews with the cast and crew, this all-access documentary gives a rare glimpse into the daunting behind-the-scenes efforts that went into the production of the HBO Original smash hit series The Last of Us."
+    },
+    {
+      "id": 151870,
+      "title": "Minecraft: The Story of Mojang",
+      "rating": 7.17,
+      "genre": [99],
+      "release_date": "2012",
+      "poster_path": "/2V3Tbq7xdRRw0G92Tx62IYDLz1g.jpg",
+      "backdrop_path": "/q3y13v1uVVOOKh2T7LBC9Ti2yZh.jpg",
+      "description": "Minecraft: The Story of Mojang is a feature-length documentary that follows the young company over the course of its first year as their profile expanded across the world stage and into the homes of millions of gamers. Featuring insights from industry icons, journalists, tastemakers, and players profoundly impacted by the game, the film serves as a time capsule for one of this generation's most unorthodox success stories."
+    },
+    {
+      "id": 1023915,
+      "title": "2073",
+      "rating": 6.877,
+      "genre": [53, 99, 878],
+      "release_date": "2024",
+      "poster_path": "/l67ir3kU53FYd6Vjwhqrkih1H1P.jpg",
+      "backdrop_path": "/721p2lNSGp2iSlUUukZwCzEKrnn.jpg",
+      "description": "Inspired by Chris Marker's iconic 1962 featurette La Jetée; the year is 2073—a not-so-distant dystopian future—and the setting is New San Francisco, the scorched-earth tech-dominant police state where democracy and personal freedom have been well and truly obliterated."
+    },
+    {
+      "id": 1412113,
+      "title": "Squid Game: Making Season 2",
+      "rating": 8.5,
+      "genre": [99],
+      "release_date": "2025",
+      "poster_path": "/yQGaui0bQ5Ai3KIFBB45nTeIqad.jpg",
+      "backdrop_path": "/jgrImRKhsRXaa6wlSsQPnFRUQbH.jpg",
+      "description": "From set designs to character arcs, get exclusive cast and director interviews on how Season 2 of the globally most-watched series was brought to life."
+    },
+    {
+      "id": 456173,
+      "title": "Minecraft: Through the Nether Portal",
+      "rating": 4,
+      "genre": [99],
+      "release_date": "2017",
+      "poster_path": "/fLCB9f2zqdksQxLPUPJpPWUP7xL.jpg",
+      "backdrop_path": "/t4B2FWjxUSy24jGDIapiloId7IL.jpg",
+      "description": "Minecraft: Through the Nether Portal takes you on a journey through the ever-evolving, epic game of Minecraft. Its popularity is opening up a whole new world for this generation, with millions of new players signing up each week. With exclusive interviews from industry experts and Minecraft’s biggest YouTube players, Dan TDM and Ali-A, we look at how the game is now being used as a tool for education and teaching while digging deeper into the creativity behind the game."
+    },
+    {
+      "id": 318256,
+      "title": "Hot Girls Wanted",
+      "rating": 6.1,
+      "genre": [99],
+      "release_date": "2015",
+      "poster_path": "/75ot83QOkc02vujyzmIbumQCU6Y.jpg",
+      "backdrop_path": "/bV7eAcBrYb57PwjpQ2ODT6VyFPd.jpg",
+      "description": "A first-ever look at the realities of the professional “amateur” porn world and the steady stream of 18-to-19-year old girls entering into it."
+    },
+    {
+      "id": 1455575,
+      "title": "Behind the Curtain: Stranger Things: The First Shadow",
+      "rating": 8,
+      "genre": [99],
+      "release_date": "2025",
+      "poster_path": "/7jQIbTMx2BlZrYGyOS94YUNcGjV.jpg",
+      "backdrop_path": "/igfo3Wt9QvXEGMPvkh8bRSel9r2.jpg",
+      "description": "Join the cast and crew behind the scenes of Stranger Things: The First Shadow, the award-winning stage play that expands the Hawkins universe. The Netflix series is simply an extension of the Stranger Things universe. The documentary gives viewers a glimpse into the making of the show as it prepares for its West End premiere. The show sold out quickly and received critical acclaim. It won two Olivier Awards in 2024."
+    },
+    {
+      "id": 1442440,
+      "title": "Con Mum",
+      "rating": 7.722,
+      "genre": [99, 80],
+      "release_date": "2025",
+      "poster_path": "/iA5ZHflyzsxmR09Ce53w9Ng0tIx.jpg",
+      "backdrop_path": "/uLiSmZ9fgPUXervqksgrwvrrjfM.jpg",
+      "description": "A chef's life is upended when a jet-setting, champagne-sipping, hotel-hopping woman claims to be his long-lost mother. This documentary reveals the untold story."
+    },
+    {
+      "id": 1437446,
+      "title": "The Twister: Caught in the Storm",
+      "rating": 6.268,
+      "genre": [99],
+      "release_date": "2025",
+      "poster_path": "/ggXb37lX9gW4SR7kpMaraXDFeFR.jpg",
+      "backdrop_path": "/m4FEubjmtytpMDchQfDmbJKHOG6.jpg",
+      "description": "In May 2011, a massive tornado ripped through Joplin, Missouri. With pulse-pounding firsthand footage, this documentary goes inside a deadly twister."
+    },
+    {
+      "id": 274181,
+      "title": "Countdown to Eternity",
+      "rating": 10,
+      "genre": [99],
+      "release_date": "1999",
+      "poster_path": "/mSozEOhPuYKa2HYqL4OhpmXchMn.jpg",
+      "backdrop_path": null,
+      "description": "Bible expert Bill Gallatin explores biblical prophecies from the Book of Revelation that have transpired, with a discussion of whether these events signify that we are now living in the End Times preceding the return of Jesus Christ. Gallatin touches on events such as the increasingly acute difficulties in the Middle East, numerous environmental catastrophes, earthquakes and more, explaining how they connect to scriptural writings."
+    },
+    {
+      "id": 1021890,
+      "title": "For Tomorrow - the Documentary",
+      "rating": 0,
+      "genre": [99],
+      "release_date": "2022",
+      "poster_path": "/4nfvIPhllhPWvdPmDRyjbsUGFCN.jpg",
+      "backdrop_path": "/hEa2hF4Rh9wo4oCKCf7iHcv5ACk.jpg",
+      "description": "The story of grassroots innovators striving to create a more sustainable future. From a self-taught engineer who built a solar-powered car to a young woman with disabilities fighting for inclusivity, they are tackling sustainability issues on the ground and empowering their communities. Is the world ready to look elsewhere for solutions to our challenges?"
+    },
+    {
+      "id": 651260,
+      "title": "Princess Diana: The Quiet Revolution",
+      "rating": 0,
+      "genre": [99],
+      "release_date": "2017",
+      "poster_path": "/pjvsi9bUrwShmS2YvN4UV4H0ygh.jpg",
+      "backdrop_path": "/zuU5C357Vl6abqRICOJ5XfuM8vr.jpg",
+      "description": "No one in history has ever been so universally adored as Diana, Princess of Wales. In her short life she captivated the world with her beauty, charm and limitless compassion. She challenged the century old tradition of stoic Royal silence and brought a Queen and her people closer than ever before. The legacy of the people’s princess still lives on two decades after her tragic and sudden death. It was her love of life, of people, of those less fortunate and of her children that saw her lead a quiet but powerful revolution that changed the British royal family, forever."
+    },
+    {
+      "id": 773736,
+      "title": "TINA",
+      "rating": 7.7,
+      "genre": [99, 10402, 10770],
+      "release_date": "2021",
+      "poster_path": "/g2Fm6iZr2LNwy8Nz2tY8Wgdo4vp.jpg",
+      "backdrop_path": "/wuEiqcDu4Y0kQO6nXGVarKJGLtG.jpg",
+      "description": "Tina Turner overcame impossible odds to become one of the first female Black artists to reach a mainstream international audience. Her road to superstardom is an undeniable story of triumph over adversity. It’s the ultimate story of survival – and an inspirational story of our times."
+    },
+    {
+      "id": 1461100,
+      "title": "A Queen’s Runway",
+      "rating": 7,
+      "genre": [99],
+      "release_date": "2025",
+      "poster_path": "/z6NPrlKUdoO7jLxLEG46wyPrXEK.jpg",
+      "backdrop_path": "/afKHErbXtIgnQJAcvVASRajkkoN.jpg",
+      "description": "Behind the crown and beyond the glamour, ambitious hopefuls chase their Miss Universe Philippines dreams, facing fierce competition and great sacrifice."
+    },
+    {
+      "id": 1262299,
+      "title": "El Apocalipsis de san Juan",
+      "rating": 7.474,
+      "genre": [99, 36],
+      "release_date": "2024",
+      "poster_path": "/zzXU586n4uDBgMtVMPPQW7UJwu8.jpg",
+      "backdrop_path": "/8lreZPhAuNjGmqukZWzY9sORmyl.jpg",
+      "description": "Embark on an epic journey through time and faith with 'The Apocalypse of Saint John.' Join the Apostle John in a stunning visual narrative that unravels the visions of the End Times. Experience each vision like never before, with striking visual effects and epic scenes that immerse you in the apocalyptic narrative."
+    },
+    {
+      "id": 755688,
+      "title": "Brave Blue World: Racing to Solve Our Water Crisis",
+      "rating": 6.2,
+      "genre": [99],
+      "release_date": "2019",
+      "poster_path": "/7l1r2sI18YdXpGvLhv3xKLbPcZB.jpg",
+      "backdrop_path": "/zfigwJmGeySuBvUWN1avdCiWbR0.jpg",
+      "description": "From reuse to energy generation, new innovations across five continents are explored in this documentary about building a future for sustainable water."
+    },
+    {
+      "id": 1455132,
+      "title": "Oklahoma City Bombing: American Terror",
+      "rating": 7.8,
+      "genre": [99],
+      "release_date": "2025",
+      "poster_path": "/1n7CuKBshPOBtWFg5xomRr19Ydt.jpg",
+      "backdrop_path": "/xfq3xAl856lI6WcaNmkEflxGDfX.jpg",
+      "description": "This gripping documentary revisits the shocking 1995 bombing of an Oklahoma City federal building, the deadliest act of domestic terrorism in US history."
+    }
+  ]
+}
