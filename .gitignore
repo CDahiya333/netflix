@@ -10,8 +10,6 @@
 !.yarn/releases
 !.yarn/versions
 
-# Movie Sample
-/sample.mov
 
 # testing
 /coverage

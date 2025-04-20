@@ -33,106 +33,109 @@ const Navbar = () => {
           : "bg-gradient-to-b from-black/90 via-black/60 to-transparent"
       }`}
     >
-      <nav className="flex items-center justify-start px-6 py-2 max-w-7xl mx-auto">
-        {/* Logo */}
-        <div className="flex items-center space-x-2 pr-2">
-          <Image
-            src="/wordmark.png"
-            alt="Netflix"
-            width={100}
-            height={30}
-            onClick={() => router.push("/root")}
-            className="cursor-pointer"
-          />
+      <nav className="flex items-center justify-between px-4 md:px-6 py-2 max-w-7xl mx-auto">
+        {/* Left side: Logo and navigation links */}
+        <div className="flex items-center">
+          {/* Logo */}
+          <div className="flex-shrink-0 mr-4 md:mr-8">
+            <Image
+              src="/wordmark.png"
+              alt="Netflix"
+              width={100}
+              height={30}
+              onClick={() => router.push("/root")}
+              className="cursor-pointer"
+            />
+          </div>
+
+          {/* Navigation Links */}
+          <ul className="hidden md:flex space-x-4 lg:space-x-6 text-sm font-medium text-white">
+            <li
+              className={`cursor-pointer transition-all duration-200 ${
+                activeTab === "/root"
+                  ? "text-white font-bold"
+                  : "text-gray-300 hover:text-white"
+              }`}
+              onClick={() => {
+                setActiveTab("/root");
+                router.push("/root");
+              }}
+            >
+              Home
+            </li>
+            <li
+              className={`cursor-pointer transition-all duration-200 ${
+                activeTab === "/tv-shows"
+                  ? "text-white font-bold"
+                  : "text-gray-300 hover:text-white"
+              }`}
+              onClick={() => {
+                setActiveTab("/tv-shows");
+                router.push("/tv-shows");
+              }}
+            >
+              TV Shows
+            </li>
+            <li
+              className={`cursor-pointer transition-all duration-200 ${
+                activeTab === "/movies"
+                  ? "text-white font-bold"
+                  : "text-gray-300 hover:text-white"
+              }`}
+              onClick={() => {
+                setActiveTab("/movies");
+                router.push("/movies");
+              }}
+            >
+              Movies
+            </li>
+            <li
+              className={`cursor-pointer transition-all duration-200 ${
+                activeTab === "/latest"
+                  ? "text-white font-bold"
+                  : "text-gray-300 hover:text-white"
+              }`}
+              onClick={() => {
+                setActiveTab("/latest");
+                router.push("/latest");
+              }}
+            >
+              Latest
+            </li>
+            <li
+              className={`cursor-pointer transition-all duration-200 ${
+                activeTab === "/my-list"
+                  ? "text-white font-bold"
+                  : "text-gray-300 hover:text-white"
+              }`}
+              onClick={() => {
+                setActiveTab("/my-list");
+                router.push("/my-list");
+              }}
+            >
+              My List
+            </li>
+            <li
+              className={`cursor-pointer transition-all duration-200 ${
+                activeTab === "/browse-by-language"
+                  ? "text-white font-bold"
+                  : "text-gray-300 hover:text-white"
+              }`}
+              onClick={() => {
+                setActiveTab("/browse-by-language");
+                router.push("/browse-by-language");
+              }}
+            >
+              Browse by Languages
+            </li>
+          </ul>
         </div>
 
-        {/* Links */}
-        <ul className="hidden md:flex space-x-6 text-sm font-medium text-white-500">
-          <li
-            className={`cursor-pointer transition-all duration-200 ${
-              activeTab === "/root"
-                ? "text-white font-bold"
-                : "text-gray-300 hover:text-white"
-            }`}
-            onClick={() => {
-              setActiveTab("/root");
-              router.push("/root");
-            }}
-          >
-            Home
-          </li>
-          <li
-            className={`cursor-pointer transition-all duration-200 ${
-              activeTab === "/tv-shows"
-                ? "text-white font-bold"
-                : "text-gray-300 hover:text-white"
-            }`}
-            onClick={() => {
-              setActiveTab("/tv-shows");
-              router.push("/tv-shows");
-            }}
-          >
-            TV Shows
-          </li>
-          <li
-            className={`cursor-pointer transition-all duration-200 ${
-              activeTab === "/movies"
-                ? "text-white font-bold"
-                : "text-gray-300 hover:text-white"
-            }`}
-            onClick={() => {
-              setActiveTab("/movies");
-              router.push("/movies");
-            }}
-          >
-            Movies
-          </li>
-          <li
-            className={`cursor-pointer transition-all duration-200 ${
-              activeTab === "/latest"
-                ? "text-white font-bold"
-                : "text-gray-300 hover:text-white"
-            }`}
-            onClick={() => {
-              setActiveTab("/latest");
-              router.push("/latest");
-            }}
-          >
-            Latest
-          </li>
-          <li
-            className={`cursor-pointer transition-all duration-200 ${
-              activeTab === "/my-list"
-                ? "text-white font-bold"
-                : "text-gray-300 hover:text-white"
-            }`}
-            onClick={() => {
-              setActiveTab("/my-list");
-              router.push("/my-list");
-            }}
-          >
-            My List
-          </li>
-          <li
-            className={`cursor-pointer transition-all duration-200 ${
-              activeTab === "/browse-by-language"
-                ? "text-white font-bold"
-                : "text-gray-300 hover:text-white"
-            }`}
-            onClick={() => {
-              setActiveTab("/browse-by-language");
-              router.push("/browse-by-language");
-            }}
-          >
-            Browse by Languages
-          </li>
-        </ul>
-
-        {/* Right icons */}
-        <div className="flex items-center space-x-6 text-white ml-auto">
+        {/* Right side: Icons */}
+        <div className="flex items-center space-x-4 md:space-x-6 text-white">
           <SearchIcon />
-
           <BellIcon />
+          
           {/* Profile section with shared hover state */}
           <div
             className="flex items-center space-x-2"
