@@ -16,7 +16,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 150);
     };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
@@ -27,8 +27,10 @@ const Navbar = () => {
   }, [pathname]);
   return (
     <header
-      className={`sticky top-0 w-full z-50 transition-colors duration-500 ${
-        scrolled ? "bg-black/90" : "bg-transparent"
+      className={`sticky top-0 w-full z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-gradient-to-b from-black via-black/90 to-black/80"
+          : "bg-gradient-to-b from-black/90 via-black/60 to-transparent"
       }`}
     >
       <nav className="flex items-center justify-start px-6 py-2 max-w-7xl mx-auto">

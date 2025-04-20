@@ -6,28 +6,96 @@ import PlayIcon from "@/app/components/icons/PlayIcon";
 import MuteIcon from "@/app/components/icons/MuteIcon";
 import UnmuteIcon from "@/app/components/icons/UnmuteIcon";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
-export default function Home() {
+const Home = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isMuted, setIsMuted] = useState(true);
+  const audioContextRef = useRef<AudioContext | null>(null);
 
   useEffect(() => {
     const video = videoRef.current;
-    if (video) {
-      video.muted = true;
+    if (!video) return;
+
+    // Start muted for autoplay compatibility
+    video.muted = true;
+    video.volume = 1.0;
+
+    const handleVideoEnded = () => {
+      video.currentTime = 0;
+      video.play().catch(console.error);
+    };
+
+    video.addEventListener("ended", handleVideoEnded);
+
+    video.play().catch(console.error);
+
+    // Initialize audio context
+    try {
+      const AudioCtx =
+        window.AudioContext ||
+        (window as unknown as { webkitAudioContext: typeof AudioContext })
+          .webkitAudioContext;
+      audioContextRef.current = new AudioCtx();
+    } catch (e) {
+      console.error("Audio context initialization error:", e);
     }
+
+    // Cleanup
+    return () => {
+      video.removeEventListener("ended", handleVideoEnded);
+    };
   }, []);
 
-  const toggleMute = () => {
+  // Handle unmuting with continuous playback
+  const handleUnmute = () => {
     const video = videoRef.current;
     if (!video) return;
 
-    video.muted = !video.muted;
-    setIsMuted(video.muted);
-    video.play().catch((err) => {
-      console.error("Play error:", err);
-    });
+    // Ensure audio context is running
+    if (
+      audioContextRef.current &&
+      audioContextRef.current.state === "suspended"
+    ) {
+      audioContextRef.current.resume().catch(console.error);
+    }
+
+    // Unmute and ensure playback
+    video.muted = false;
+    setIsMuted(false);
+
+    // Ensure volume is up
+    video.volume = 1.0;
+
+    // Force playback to continue
+    if (video.paused) {
+      video.play().catch((err) => {
+        console.error("Unmute play error:", err);
+        // If can't play with sound, revert to muted
+        video.muted = true;
+        setIsMuted(true);
+        video.play().catch(console.error);
+      });
+    }
   };
+
+  // Handle muting
+  const handleMute = () => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.muted = true;
+    setIsMuted(true);
+  };
+
+  const toggleMute = () => {
+    if (isMuted) {
+      handleUnmute();
+    } else {
+      handleMute();
+    }
+  };
+
   return (
     <div className="root-container">
       <Navbar />
@@ -40,6 +108,7 @@ export default function Home() {
         autoPlay
         loop
       ></video>
+
       {/* Overlay Content */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent flex flex-col justify-end">
         <div className="relative pb-8 bottom-20">
@@ -55,14 +124,15 @@ export default function Home() {
           <div className="flex gap-4 w-full relative">
             <div className="left-container flex flex-row gap-4">
               <button
-                className="bg-white text-black text-2xl font-medium  px-4 ml-8 py-3 pr-10 rounded hover:bg-gray-200 flex items-center gap-2"
+                className="bg-white text-black text-2xl font-medium px-4 ml-8 py-3 pr-10 rounded hover:bg-gray-200 flex items-center gap-2"
                 type="button"
+                onClick={toggleMute}
               >
                 <PlayIcon />
                 Play
               </button>
               <button
-                className="bg-[rgba(109, 109, 110, 0.7)] hover:bg-black-700 text-white text-2xl font-medium px-4 py-2 rounded  flex items-center gap-2"
+                className="bg-[rgba(109, 109, 110, 0.7)] hover:bg-black-700 text-white text-2xl font-medium px-4 py-2 rounded flex items-center gap-2"
                 type="button"
               >
                 <InfoIcon />
@@ -75,7 +145,7 @@ export default function Home() {
                 type="button"
                 onClick={toggleMute}
               >
-                {isMuted ? <UnmuteIcon /> : <MuteIcon />}
+                {isMuted ? <MuteIcon /> : <UnmuteIcon />}
               </button>
               <div className="ratings-container text-sm flex flex-row items-center bg-gray-800 opacity-60 border-l-2 border-white text-white px-10 py-3 absolute right-0 whitespace-nowrap">
                 <span className="text-white opacity-100">U/A 18+</span>
@@ -86,4 +156,7 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+// Force client-side rendering only
+export default dynamic(() => Promise.resolve(Home), { ssr: false });

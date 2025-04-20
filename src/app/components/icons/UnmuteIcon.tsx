@@ -1,7 +1,7 @@
-import { VscMute } from "react-icons/vsc";
+import { VscUnmute } from "react-icons/vsc";
 
 const MuteIcon = () => {
-  return <VscMute className="w-6 h-6" />;
+  return <VscUnmute className="w-6 h-6" />;
 };
 
 export default MuteIcon;
