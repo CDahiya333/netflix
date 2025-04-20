@@ -103,16 +103,17 @@ const Home = () => {
   return (
     <main className="relative min-h-screen bg-[#141414]">
       <Navbar />
+      <GenresBar title="TV Shows" />
       <div
-        className="relative w-full"
-        style={{ paddingBottom: "40.25%" }}
+        className="fixed-aspect-container relative w-full"
+        style={{ paddingBottom: "50.25%" }}
       >
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 top-0 left-0 overflow-hidden">
           <video
             ref={videoRef}
             className="w-full h-full object-cover"
             muted={isMuted}
-            src="/sample.mov"
+            src="/tvSample.mov"
             playsInline
             autoPlay
             loop
@@ -125,15 +126,15 @@ const Home = () => {
           {/* Overlay Content */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent flex flex-col justify-end">
             <div className="relative pb-8 bottom-20">
-              <h1 className="text-4xl font-bold text-white -mb-4">
+              <h1 className="text-4xl font-bold text-white  ml-6">
                 <Image
-                  src="/venom3-wordmark.png"
-                  alt="Venom 3"
-                  width={250}
-                  height={250}
+                  src="/queenOfTears.png"
+                  alt="Queen of Tears"
+                  width={200}
+                  height={200}
                 />
+                {/* WordMark Icon */}
               </h1>
-              {/* Venom 3 Icon */}
               <div className="flex gap-4 w-full relative">
                 <div className="left-container flex flex-row gap-4">
                   <button
@@ -154,7 +155,7 @@ const Home = () => {
                 </div>
                 <div className="right-container flex flex-row gap-4 items-center absolute right-0 bottom-2">
                   <button
-                    className="backdrop-blur-md bg-black/40 hover:bg-black/60 relative right-38 text-white p-2 rounded-full border border-white/30 hover:border-white/50 transition-all duration-300 flex items-center gap-2"
+                    className="backdrop-blur-md bg-black/40 hover:bg-black/60 relative right-28 text-white p-2 rounded-full border border-white/30 hover:border-white/50 transition-all duration-300 flex items-center gap-2"
                     type="button"
                     onClick={toggleMute}
                   >
@@ -173,7 +174,7 @@ const Home = () => {
       </div>
 
       {/* Movie Rows Section */}
-      <div className="movie-rows-section bg-black relative z-20">
+      <div className="movie-rows-section bg-black -px-20 relative">
         {/* Gradient overlay at the bottom */}
 
         <MovieRow genre="trending" title="Trending Now" />
@@ -182,13 +183,12 @@ const Home = () => {
         <MovieRow genre="comedy" title="Comedy Movies" />
         <MovieRow genre="horror" title="Horror Movies" />
         <MovieRow genre="romance" title="Romance Movies" />
-        <MovieRow genre="documentaries" title="Documentaries" />
-        <MovieRow genre="action" title="Science Fiction" />
-        <MovieRow genre="comedy" title="Critically Acclaimed TV Comedies" />
-        <MovieRow genre="horror" title="New on Netflix" />
-        <TopRatedRow title="Top 10 Shows in India Today" />
-        <MovieRow genre="romance" title="Romantic International TV Dramas" />
-        <MovieRow genre="documentaries" title="Bingeworth TV Thrillers" />
+        <MovieRow genre="action" title="International TV Sci-Fi Fantasy" />
+        <MovieRow genre="comedy" title="Boredom Busters" />
+        <MovieRow genre="horror" title="Asian TV Thrillers" />
+        <TopRatedRow title="Top 10 Korean TV Shows" />
+        <MovieRow genre="romance" title="So Completely Captivating" />
+        <MovieRow genre="documentaries" title="Your Next Watch" />
       </div>
 
       {/* Footer */}

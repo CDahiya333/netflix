@@ -157,7 +157,7 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
         {/* Navigation Buttons at extreme edges */}
         <button
           className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-50
-                    bg-black/50 text-white hover:bg-black/80 
+                    bg-black/30 text-white hover:bg-black/40 
                     opacity-0 group-hover:opacity-100 md:flex hidden
                     transition-all duration-300 items-center justify-center
                     ${isAnimating ? "scale-105" : "scale-100"} 
@@ -209,7 +209,7 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
 
         <button
           className={`absolute right-0 top-1/2 transform -translate-y-1/2 z-50
-                    bg-black/50 text-white hover:bg-black/80 
+                    bg-black/30 text-white hover:bg-black/40
                     opacity-0 group-hover:opacity-100 md:flex hidden
                     transition-all duration-300 items-center justify-center
                     ${isAnimating ? "scale-105" : "scale-100"} 

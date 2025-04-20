@@ -121,11 +121,11 @@ const Dropdown = ({ externalIsOpen, onOpenChange }: DropdownProps = {}) => {
               </div>
 
               {/* Additional options */}
-              <div className="pt-2 border-t border-gray-700">
-                <div className="py-2">
+              <div className="border-gray-700">
+                <div className="py-2 flex flex-col flex-start -ml-2">
                   {/* Manage Profiles */}
                   <button
-                    className="w-full text-left flex items-center px-2 py-1.5 text-gray-300 text-sm hover:bg-gray-800 transition"
+                    className="w-full text-left flex self-start px-2 py-1.5 text-gray-300 text-sm hover:bg-gray-800 transition"
                     type="button"
                   >
                     <EditPencil />
@@ -159,15 +159,18 @@ const Dropdown = ({ externalIsOpen, onOpenChange }: DropdownProps = {}) => {
                     Help Center
                   </button>
                 </div>
-
-                {/* Sign Out Button */}
-                <button
-                  className="w-full text-center text-gray-300 text-sm py-2 hover:text-white transition border-t border-gray-700 mt-1 pt-2"
-                  type="button"
-                >
-                  Sign out of Netflix
-                </button>
               </div>
+
+              {/* Divider */}
+              <div className="w-full border-t border-gray-700 mt-2 mb-2"></div>
+
+              {/* Sign Out Button */}
+              <button
+                className="w-full text-center text-gray-300 text-sm py-2 hover:text-white transition mt-1"
+                type="button"
+              >
+                Sign out of Netflix
+              </button>
             </div>
           </div>
         </>
