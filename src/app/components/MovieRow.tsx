@@ -32,7 +32,7 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const genreMovies = (movies[genre] || []).slice(0, 40);
+  const genreMovies = (movies[genre] || []).slice(0, 100);
   const totalPages = Math.ceil(genreMovies.length / itemsPerPage);
 
   const indexOfLastMovie = currentPage * itemsPerPage;
@@ -125,11 +125,11 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
     const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1);
 
     return (
-      <div className="flex items-center space-x-1 h-1">
+      <div className="flex items-center space-x-2/3 h-1">
         {pageNumbers.map((page) => (
           <div
             key={page}
-            className={`h-1/4 w-4 cursor-pointer transition-all duration-300 ${
+            className={`h-1/4 w-3 cursor-pointer transition-all duration-300 ${
               page === currentPage
                 ? "bg-white "
                 : "bg-gray-500 opacity-70 hover:opacity-100"
@@ -144,10 +144,12 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
   };
 
   return (
-    <section className="relative py-6 bg-black group">
-      <div className="flex justify-between items-center mb-4 px-8">
-        <h2 className="text-white text-2xl font-bold">{title}</h2>
-        <div className="md:block hidden">{renderPageIndicator()}</div>
+    <section className="relative bg-zinc-900 group">
+      <div className="flex justify-between items-center px-12">
+        <div className="text-white text-xl ml-1">{title}</div>
+        <div className="md:block hidden self-end -pb-12 ">
+          {renderPageIndicator()}
+        </div>
       </div>
 
       {/* Movie row with absolute positioned buttons */}

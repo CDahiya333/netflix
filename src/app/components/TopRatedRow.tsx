@@ -53,7 +53,7 @@ export default function TopRatedRow({ title }: TopRatedRowProps) {
   // Calculate container and card dimensions
   const getLayoutStyles = () => {
     const fullVisibleCards = Math.min(5, itemsPerPage); // Max 5 cards visible
-    const gap = 2;
+    const gap = 0;
 
     const sidePadding = windowWidth >= 768 ? 48 : 24;
     const availableWidth = windowWidth - sidePadding * 2;
@@ -133,14 +133,16 @@ export default function TopRatedRow({ title }: TopRatedRowProps) {
   };
 
   return (
-    <section className="relative py-6 bg-zinc-950 group">
-      <div className="flex justify-between items-center mb-4 px-8">
-        <h2 className="text-white text-2xl font-bold">{title}</h2>
-        <div className="md:block hidden">{renderPageIndicator()}</div>
+    <section className="relative py-6 bg-zinc-900 group">
+      <div className="flex justify-between items-center px-12">
+        <div className="text-white text-xl ml-1">{title}</div>
+        <div className="md:block hidden self-end -pb-12">
+          {renderPageIndicator()}
+        </div>
       </div>
 
       {/* Movie row with absolute positioned buttons */}
-      <div className="w-full overflow-hidden relative">
+      <div className="w-full overflow-hidden relative ">
         {/* Navigation Buttons at extreme edges */}
         <button
           className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-10
@@ -253,7 +255,7 @@ type TopRatedCardProps = {
 function TopRatedCard({ movie, rank, width, height }: TopRatedCardProps) {
   return (
     <div
-      className="flex bg-zinc-900 rounded overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+      className="flex bg-zinc-900 rounded overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300 relative"
       style={{
         width: width || "100%",
         height: height || "auto",
@@ -278,7 +280,7 @@ function TopRatedCard({ movie, rank, width, height }: TopRatedCardProps) {
       </div>
 
       {/* Right side with movie poster */}
-      <div className="w-2/3 justify-end relative ">
+      <div className="w-2/3 justify-end relative">
         <Image
           src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
           alt={movie.title}
@@ -287,7 +289,13 @@ function TopRatedCard({ movie, rank, width, height }: TopRatedCardProps) {
           sizes="(max-width: 768px) 50vw, 33vw"
           style={{ objectPosition: "center" }}
         />
+
+        {/* Gradient overlay - bottom to top, black to transparent */}
+        <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
       </div>
+
+      {/* Full card gradient overlay at bottom */}
+      <div className="absolute inset-x-0 bottom-0 h-[15%] bg-gradient-to-t from-black/70 to-transparent z-10"></div>
     </div>
   );
 }

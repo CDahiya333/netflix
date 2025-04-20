@@ -27,3 +27,8 @@ body {
   font-family: "Netflix Sans", Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
 }
+
+/* Footer text styling */
+.footer-text {
+  font-size: 0.65rem;
+}

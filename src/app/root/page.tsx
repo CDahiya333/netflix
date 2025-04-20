@@ -9,6 +9,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import MovieRow from "../components/MovieRow";
 import TopRatedRow from "../components/TopRatedRow";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -99,11 +100,11 @@ const Home = () => {
   };
 
   return (
-    <main className="relative min-h-screen bg-black">
+    <main className="relative min-h-screen bg-[#141414]">
       <Navbar />
       <div
         className="fixed-aspect-container relative w-full"
-        style={{ paddingBottom: "56.25%" }}
+        style={{ paddingBottom: "40.25%" }}
       >
         <div className="absolute inset-0 overflow-hidden">
           <video
@@ -123,7 +124,7 @@ const Home = () => {
           {/* Overlay Content */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent flex flex-col justify-end">
             <div className="relative pb-8 bottom-20">
-              <h1 className="text-4xl font-bold text-white -mb-4 -ml-4">
+              <h1 className="text-4xl font-bold text-white -mb-4">
                 <Image
                   src="/venom3-wordmark.png"
                   alt="Venom 3"
@@ -135,7 +136,7 @@ const Home = () => {
               <div className="flex gap-4 w-full relative">
                 <div className="left-container flex flex-row gap-4">
                   <button
-                    className="bg-white text-black text-2xl font-medium px-4 ml-8 py-3 pr-10 rounded hover:bg-gray-200 flex items-center gap-2"
+                    className="bg-white text-black text-sm font-medium  ml-14 p-1 pr-6 rounded py-0 hover:bg-gray-200 flex items-center gap-2"
                     type="button"
                     onClick={toggleMute}
                   >
@@ -143,7 +144,7 @@ const Home = () => {
                     Play
                   </button>
                   <button
-                    className="bg-[rgba(109, 109, 110, 0.7)] hover:bg-black-700 text-white text-2xl font-medium px-4 py-2 rounded flex items-center gap-2"
+                    className="backdrop-blur-md bg-white/30 hover:bg-white/10 text-white text-sm font-medium px-2 py-2 pr-6 rounded flex items-center align-middle gap-2 transition-all duration-300 border border-white/20"
                     type="button"
                   >
                     <InfoIcon />
@@ -152,24 +153,29 @@ const Home = () => {
                 </div>
                 <div className="right-container flex flex-row gap-4 items-center absolute right-0 bottom-2">
                   <button
-                    className="bg-[rgba(109, 109, 110, 0.7)] relative right-38 hover:bg-black-700 text-white px-2 py-2 rounded-full border-white border hover:opacity-60 flex items-center gap-2"
+                    className="backdrop-blur-md bg-black/40 hover:bg-black/60 relative right-38 text-white p-2 rounded-full border border-white/30 hover:border-white/50 transition-all duration-300 flex items-center gap-2"
                     type="button"
                     onClick={toggleMute}
                   >
                     {isMuted ? <MuteIcon /> : <UnmuteIcon />}
                   </button>
-                  <div className="ratings-container text-sm flex flex-row items-center bg-gray-800 opacity-60 border-l-2 border-white text-white px-10 py-3 absolute right-0 whitespace-nowrap">
-                    <span className="text-white opacity-100">U/A 18+</span>
+                  <div className="ratings-container text-sm flex flex-row items-center backdrop-blur-md bg-white/10 border-l-2 border-white/50 text-white px-6 py-2 absolute right-0 whitespace-nowrap">
+                    <span className="text-white">U/A 18+</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* Gradient overlay at the bottom */}
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-zinc-900 to-transparent z-10"></div>
       </div>
 
       {/* Movie Rows Section */}
-      <div className="movie-rows-section bg-black">
+      <div className="movie-rows-section bg-black -px-20 relative">
+        {/* Gradient overlay at the bottom */}
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#141414] to-transparent z-10"></div>
+
         <MovieRow genre="trending" title="Trending Now" />
         <TopRatedRow title="Top 10 Movies" />
         <MovieRow genre="action" title="Action Thrillers" />
@@ -178,6 +184,9 @@ const Home = () => {
         <MovieRow genre="romance" title="Romance Movies" />
         <MovieRow genre="documentaries" title="Documentaries" />
       </div>
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 };
