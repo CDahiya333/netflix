@@ -269,8 +269,7 @@ function TopRatedCard({ movie, rank, width, height }: TopRatedCardProps) {
             className="font-bold text-black pl-6"
             style={{
               fontSize: rank > 9 ? "120px" : "160px", // Slightly smaller for double digits
-              WebkitTextStroke: "2px grey",
-              textStroke: "2px white",
+              WebkitTextStroke: "2px white", // Stroke width and color combined
               lineHeight: "0.8",
             }}
           >
