@@ -10,7 +10,6 @@ import dynamic from "next/dynamic";
 import MovieRow from "../components/MovieRow";
 import TopRatedRow from "../components/TopRatedRow";
 import Footer from "../components/Footer";
-import GenresBar from "../components/GenresBar";
 
 const Home = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -103,10 +102,7 @@ const Home = () => {
   return (
     <main className="relative min-h-screen bg-[#141414]">
       <Navbar />
-      <div
-        className="relative w-full"
-        style={{ paddingBottom: "40.25%" }}
-      >
+      <div className="relative w-full" style={{ paddingBottom: "40.25%" }}>
         <div className="absolute inset-0 overflow-hidden">
           <video
             ref={videoRef}
