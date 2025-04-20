@@ -18,11 +18,10 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const [windowWidth, setWindowWidth] = useState(0);
-  const itemsPerPage = 7; // Show 7 full cards plus 2 peek cards
+  const itemsPerPage = 6;
+  const cardAspectRatio = 16 / 9;
 
-  // Update window width on resize
   useEffect(() => {
-    // Set initial width
     setWindowWidth(window.innerWidth);
 
     const handleResize = () => {
@@ -36,60 +35,77 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
   const genreMovies = (movies[genre] || []).slice(0, 40);
   const totalPages = Math.ceil(genreMovies.length / itemsPerPage);
 
-  // Get current movies for this page and add one from previous/next page for peek effect
   const indexOfLastMovie = currentPage * itemsPerPage;
   const indexOfFirstMovie = indexOfLastMovie - itemsPerPage;
 
-  // Get the peek movie from the previous page (if any)
   const previousPeekMovie =
     indexOfFirstMovie > 0 ? genreMovies[indexOfFirstMovie - 1] : null;
 
-  // Get the peek movie from the next page (if any)
   const nextPeekMovie =
     indexOfLastMovie < genreMovies.length
       ? genreMovies[indexOfLastMovie]
       : null;
 
-  // Current page movies
   const currentPageMovies = genreMovies.slice(
     indexOfFirstMovie,
     indexOfLastMovie
   );
 
-  // Assemble final array with peek movies
   const displayMovies = [
     ...(previousPeekMovie ? [previousPeekMovie] : []),
     ...currentPageMovies,
     ...(nextPeekMovie ? [nextPeekMovie] : []),
   ];
 
-  // Calculate container width based on screen size
-  const getContainerStyles = () => {
-    // Card width + gap
-    const cardWithGap = 289.82 + 16; // 16px is the reduced gap between cards (space-x-4)
+  // Calculate container and card dimensions
+  const getLayoutStyles = () => {
+    // Number of fully visible cards
+    const fullVisibleCards = windowWidth >= 768 ? 6 : 3; // 6 cards for desktop, 3 cards for mobile
+    const gap = 4;
 
-    // Calculate max visible cards based on screen width
-    let visibleCards;
-    if (windowWidth >= 1920) visibleCards = 7; // 2xl and above
-    else if (windowWidth >= 1536) visibleCards = 6; // xl
-    else if (windowWidth >= 1280) visibleCards = 5; // lg
-    else if (windowWidth >= 1024) visibleCards = 4; // md
-    else if (windowWidth >= 768) visibleCards = 2; // sm
-    else visibleCards = 1; // xs
+    const sidePadding = windowWidth >= 768 ? 48 : 24;
 
-    // For very small screens, adjust to show at least one full card
-    if (visibleCards < 1) visibleCards = 1;
+    const availableWidth = windowWidth - sidePadding * 2;
 
-    // Calculate percentage width to show exactly the number of visible cards
-    // Add 40% of a card width for peek effect on both sides
-    const containerWidth = cardWithGap * (visibleCards + 0.8);
+    // Calculate card width:
+    // We need space for fullVisibleCards + two peek cards (0.4 each)
+    // Total gap space = gaps between cards (fullVisibleCards + 1)
+    const totalGapSpace = (fullVisibleCards + 1) * gap;
+    const cardWidth = Math.floor(
+      (availableWidth - totalGapSpace) / (fullVisibleCards + 0.8)
+    );
+
+    // Calculate card height based on aspect ratio
+    const cardHeight = Math.floor(cardWidth / cardAspectRatio);
+
+    // Width for peek cards (40% of regular cards)
+    const peekCardWidth = Math.floor(cardWidth * 0.4);
+
+    // Navigation button width and positioning
+    const navButtonWidth = peekCardWidth;
+
+    // Calculate container width to exactly fit the cards + gaps
+    const containerWidth =
+      cardWidth * fullVisibleCards + cardWidth * 0.8 + totalGapSpace;
 
     return {
-      width: `${containerWidth}px`,
-      maxWidth: "100%",
-      margin: "0 auto",
+      containerWidth: `${containerWidth}px`,
+      containerStyle: {
+        width: `${containerWidth}px`,
+        maxWidth: "100%",
+        margin: "0 auto",
+        display: "flex",
+        gap: `${gap}px`,
+      },
+      cardWidth: `${cardWidth}px`,
+      cardHeight: `${cardHeight}px`,
+      peekCardWidth: `${peekCardWidth}px`,
+      navButtonWidth: navButtonWidth,
+      navButtonHeight: cardHeight,
     };
   };
+
+  const styles = getLayoutStyles();
 
   // Change page with animation
   const paginate = (pageNumber: number) => {
@@ -102,79 +118,109 @@ export default function MovieRow({ genre, title }: MovieRowProps) {
     }
   };
 
+  // Generate page indicator UI
+  const renderPageIndicator = () => {
+    if (totalPages <= 1) return null;
+
+    const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1);
+
+    return (
+      <div className="flex items-center space-x-1 h-1">
+        {pageNumbers.map((page) => (
+          <div
+            key={page}
+            className={`h-1/4 w-4 cursor-pointer transition-all duration-300 ${
+              page === currentPage
+                ? "bg-white "
+                : "bg-gray-500 opacity-70 hover:opacity-100"
+            }`}
+            onClick={() => paginate(page)}
+            aria-label={`Go to page ${page}`}
+            role="button"
+          />
+        ))}
+      </div>
+    );
+  };
+
   return (
     <section className="relative py-6 bg-black group">
-      <h2 className="text-white text-2xl font-bold mb-4 ml-4 px-4">{title}</h2>
+      <div className="flex justify-between items-center mb-4 px-8">
+        <h2 className="text-white text-2xl font-bold">{title}</h2>
+        <div className="md:block hidden">{renderPageIndicator()}</div>
+      </div>
 
       {/* Movie row with absolute positioned buttons */}
-      <div className="w-full overflow-hidden">
+      <div className="w-full overflow-hidden relative">
         {/* Navigation Buttons at extreme edges */}
         <button
-          className={`absolute left-0 -bottom-12 transform -translate-y-1/2 z-50
-                    bg-black/30 text-white p-3 hover:bg-black/70 
-                    opacity-80 group-hover:opacity-100 md:block hidden
-                    transition-all duration-300 h-[59%] lg:flex items-center
+          className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-50
+                    bg-black/50 text-white hover:bg-black/80 
+                    opacity-0 group-hover:opacity-100 md:flex hidden
+                    transition-all duration-300 items-center justify-center
                     ${isAnimating ? "scale-105" : "scale-100"} 
-                    disabled:opacity-0 group`}
+                    disabled:opacity-0`}
           onClick={() => paginate(currentPage - 1)}
           disabled={currentPage === 1}
           aria-label="Previous page"
+          style={{
+            height: `${styles.navButtonHeight}px`,
+            width: `${styles.navButtonWidth}px`,
+          }}
         >
-          <span className="transform text-3xl transition-transform duration-200 group-hover:scale-135">
-            &lt;
-          </span>
+          <span className="text-4xl">&lt;</span>
         </button>
 
         {/* Content Container with cards */}
-        <div className="relative px-6 md:px-16">
+        <div className="relative px-6 md:px-12 flex justify-center">
           <div
-            className={`flex justify-center space-x-4 py-2 scrollbar-hide transition-all duration-500 ${
+            className={`py-2 scrollbar-hide transition-all duration-500 ${
               isAnimating ? "opacity-80" : "opacity-100"
             }`}
-            style={getContainerStyles()}
+            style={styles.containerStyle}
           >
-            {displayMovies.map((movie, index) => (
-              <div
-                key={movie.id}
-                className={`flex-none transition-all duration-300 transform
-                  ${
-                    index === 0
-                      ? "opacity-70 scale-95 hover:opacity-100 hover:scale-100"
-                      : ""
-                  }
-                  ${
-                    index === displayMovies.length - 1
-                      ? "opacity-70 scale-95 hover:opacity-100 hover:scale-100"
-                      : ""
-                  }
-                `}
-                style={{
-                  width: "289.82px", // Match the exact width of MovieCard
-                }}
-              >
-                <MovieCard
-                  title={movie.title}
-                  src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
-                />
-              </div>
-            ))}
+            {displayMovies.map((movie, index) => {
+              const isPeekCard =
+                index === 0 || index === displayMovies.length - 1;
+              return (
+                <div
+                  key={movie.id}
+                  className={`flex-none transition-all duration-300 transform
+                    ${
+                      isPeekCard
+                        ? "opacity-70 scale-95 hover:opacity-100 hover:scale-100"
+                        : ""
+                    }
+                  `}
+                >
+                  <MovieCard
+                    title={movie.title}
+                    src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
+                    width={styles.cardWidth}
+                    height={styles.cardHeight}
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
 
         <button
-          className={`absolute right-0 top-40 transform -translate-y-1/2 z-50
-                    bg-black/30 text-white p-3 hover:bg-black/70 
-                    opacity-80 group-hover:opacity-100 md:block hidden
-                    transition-all duration-300 h-[60%] lg:flex items-center
+          className={`absolute right-0 top-1/2 transform -translate-y-1/2 z-50
+                    bg-black/50 text-white hover:bg-black/80 
+                    opacity-0 group-hover:opacity-100 md:flex hidden
+                    transition-all duration-300 items-center justify-center
                     ${isAnimating ? "scale-105" : "scale-100"} 
-                    disabled:opacity-0 group`}
+                    disabled:opacity-0`}
           onClick={() => paginate(currentPage + 1)}
           disabled={currentPage === totalPages}
           aria-label="Next page"
+          style={{
+            height: `${styles.navButtonHeight}px`,
+            width: `${styles.navButtonWidth}px`,
+          }}
         >
-          <span className="transform text-3xl transition-transform duration-200 hover:scale-135">
-            &gt;
-          </span>
+          <span className="text-4xl">&gt;</span>
         </button>
       </div>
     </section>
