@@ -2,13 +2,17 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { useRouter, usePathname } from "next/navigation";
 import SearchIcon from "./icons/SearchIcon";
 import BellIcon from "./icons/BellIcon";
 import Dropdown from "./icons/Dropdown";
 
 const Navbar = () => {
+  const router = useRouter();
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [profileMenuOpen, setProfileMenuOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState("/root");
 
   useEffect(() => {
     const onScroll = () => {
@@ -17,6 +21,10 @@ const Navbar = () => {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    setActiveTab(pathname);
+  }, [pathname]);
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-colors duration-500 ${
@@ -31,22 +39,82 @@ const Navbar = () => {
 
         {/* Links */}
         <ul className="hidden md:flex space-x-6 text-sm font-medium text-white-500">
-          <li className="hover:text-gray-400 cursor-pointer transition">
+          <li
+            className={`cursor-pointer transition-all duration-200 ${
+              activeTab === "/root"
+                ? "text-white font-bold"
+                : "text-gray-300 hover:text-white"
+            }`}
+            onClick={() => {
+              setActiveTab("/root");
+              router.push("/root");
+            }}
+          >
             Home
           </li>
-          <li className="hover:text-gray-400 cursor-pointer transition">
+          <li
+            className={`cursor-pointer transition-all duration-200 ${
+              activeTab === "/tv-shows"
+                ? "text-white font-bold"
+                : "text-gray-300 hover:text-white"
+            }`}
+            onClick={() => {
+              setActiveTab("/tv-shows");
+              router.push("/tv-shows");
+            }}
+          >
             TV Shows
           </li>
-          <li className="hover:text-gray-400 cursor-pointer transition">
+          <li
+            className={`cursor-pointer transition-all duration-200 ${
+              activeTab === "/movies"
+                ? "text-white font-bold"
+                : "text-gray-300 hover:text-white"
+            }`}
+            onClick={() => {
+              setActiveTab("/movies");
+              router.push("/movies");
+            }}
+          >
             Movies
           </li>
-          <li className="hover:text-gray-400 cursor-pointer transition">
+          <li
+            className={`cursor-pointer transition-all duration-200 ${
+              activeTab === "/latest"
+                ? "text-white font-bold"
+                : "text-gray-300 hover:text-white"
+            }`}
+            onClick={() => {
+              setActiveTab("/latest");
+              router.push("/latest");
+            }}
+          >
             Latest
           </li>
-          <li className="hover:text-gray-400 cursor-pointer transition">
+          <li
+            className={`cursor-pointer transition-all duration-200 ${
+              activeTab === "/my-list"
+                ? "text-white font-bold"
+                : "text-gray-300 hover:text-white"
+            }`}
+            onClick={() => {
+              setActiveTab("/my-list");
+              router.push("/my-list");
+            }}
+          >
             My List
           </li>
-          <li className="hover:text-gray-400 cursor-pointer transition">
+          <li
+            className={`cursor-pointer transition-all duration-200 ${
+              activeTab === "/browse-by-language"
+                ? "text-white font-bold"
+                : "text-gray-300 hover:text-white"
+            }`}
+            onClick={() => {
+              setActiveTab("/browse-by-language");
+              router.push("/browse-by-language");
+            }}
+          >
             Browse by Languages
           </li>
         </ul>
