@@ -27,14 +27,21 @@ const Navbar = () => {
   }, [pathname]);
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-colors duration-500 ${
+      className={`sticky top-0 w-full z-50 transition-colors duration-500 ${
         scrolled ? "bg-black/90" : "bg-transparent"
       }`}
     >
       <nav className="flex items-center justify-start px-6 py-4 max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center space-x-2 pr-2">
-          <Image src="/wordmark.png" alt="Netflix" width={100} height={30} />
+          <Image
+            src="/wordmark.png"
+            alt="Netflix"
+            width={100}
+            height={30}
+            onClick={() => router.push("/root")}
+            className="cursor-pointer"
+          />
         </div>
 
         {/* Links */}
