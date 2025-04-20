@@ -31,7 +31,7 @@ const Navbar = () => {
         scrolled ? "bg-black/90" : "bg-transparent"
       }`}
     >
-      <nav className="flex items-center justify-start px-6 py-4 max-w-7xl mx-auto">
+      <nav className="flex items-center justify-start px-6 py-2 max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center space-x-2 pr-2">
           <Image

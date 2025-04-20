@@ -71,14 +71,14 @@ export default function Home() {
             </div>
             <div className="right-container flex flex-row gap-4 items-center absolute right-0 bottom-2">
               <button
-                className="bg-[rgba(109, 109, 110, 0.7)] relative right-32 hover:bg-black-700 text-white px-2 py-2 rounded-full border-white border hover:opacity-60 flex items-center gap-2"
+                className="bg-[rgba(109, 109, 110, 0.7)] relative right-38 hover:bg-black-700 text-white px-2 py-2 rounded-full border-white border hover:opacity-60 flex items-center gap-2"
                 type="button"
                 onClick={toggleMute}
               >
                 {isMuted ? <UnmuteIcon /> : <MuteIcon />}
               </button>
-              <div className="ratings-container text-sm flex flex-row items-center bg-gray-800 opacity-60 border-l-2 border-white text-white px-8 py-3 absolute right-0 whitespace-nowrap">
-                <span className="text-white opacity-100">U/A 16+</span>
+              <div className="ratings-container text-sm flex flex-row items-center bg-gray-800 opacity-60 border-l-2 border-white text-white px-10 py-3 absolute right-0 whitespace-nowrap">
+                <span className="text-white opacity-100">U/A 18+</span>
               </div>
             </div>
           </div>
