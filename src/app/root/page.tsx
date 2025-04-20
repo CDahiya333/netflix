@@ -8,6 +8,7 @@ import UnmuteIcon from "@/app/components/icons/UnmuteIcon";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import MovieRow from "../components/MovieRow";
+import TopRatedRow from "../components/TopRatedRow";
 
 const Home = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -169,9 +170,9 @@ const Home = () => {
 
       {/* Movie Rows Section */}
       <div className="movie-rows-section bg-black">
-        <MovieRow genre="trending" title="Trending" />
-        <MovieRow genre="topRated" title="Top Rated" />
-        <MovieRow genre="action" title="Action Movies" />
+        <MovieRow genre="trending" title="Trending Now" />
+        <TopRatedRow title="Top 10 Movies" />
+        <MovieRow genre="action" title="Action Thrillers" />
         <MovieRow genre="comedy" title="Comedy Movies" />
         <MovieRow genre="horror" title="Horror Movies" />
         <MovieRow genre="romance" title="Romance Movies" />
