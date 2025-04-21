@@ -16,7 +16,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      setScrolled(window.scrollY > 20);
+      setScrolled(window.scrollY > 10);
     };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
@@ -29,11 +29,11 @@ const Navbar = () => {
     <header
       className={`sticky top-0 w-full z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-black"
-          : "bg-gradient-to-b from-black via-black/20 to-transparent"
+          ? "bg-zinc-900 bg-gradient-to-b from-black via-black/10 to-transparent"
+          : "bg-gradient-to-b from-black via-black/10 to-transparent"
       }`}
     >
-      <nav className="flex items-center justify-between px-4 md:px-6  max-w-7xl mx-auto">
+      <nav className="flex items-center justify-between px-4 md:px-6 max-w-full mx-auto">
         {/* Left side: Logo and navigation links */}
         <div className="flex items-center">
           {/* Logo */}
@@ -49,9 +49,9 @@ const Navbar = () => {
           </div>
 
           {/* Navigation Links */}
-          <ul className="hidden md:flex space-x-4 lg:space-x-6 text-sm text-white">
+          <ul className="hidden md:flex space-x-2 lg:space-x-4 xl:space-x-6">
             <li
-              className={`cursor-pointer transition-all duration-200 ${
+              className={`cursor-pointer transition-all duration-200 text-xs md:text-xs lg:text-sm ${
                 activeTab === "/root"
                   ? "text-white font-bold"
                   : "text-gray-300 hover:text-white"
@@ -64,7 +64,7 @@ const Navbar = () => {
               Home
             </li>
             <li
-              className={`cursor-pointer transition-all duration-200 ${
+              className={`cursor-pointer transition-all duration-200 text-xs md:text-xs lg:text-sm ${
                 activeTab === "/tv-shows"
                   ? "text-white font-bold"
                   : "text-gray-300 hover:text-white"
@@ -77,7 +77,7 @@ const Navbar = () => {
               TV Shows
             </li>
             <li
-              className={`cursor-pointer transition-all duration-200 ${
+              className={`cursor-pointer transition-all duration-200 text-xs md:text-xs lg:text-sm ${
                 activeTab === "/movies"
                   ? "text-white font-bold"
                   : "text-gray-300 hover:text-white"
@@ -90,7 +90,7 @@ const Navbar = () => {
               Movies
             </li>
             <li
-              className={`cursor-pointer transition-all duration-200 ${
+              className={`cursor-pointer transition-all duration-200 text-xs md:text-xs lg:text-sm ${
                 activeTab === "/latest"
                   ? "text-white font-bold"
                   : "text-gray-300 hover:text-white"
@@ -103,7 +103,7 @@ const Navbar = () => {
               Latest
             </li>
             <li
-              className={`cursor-pointer transition-all duration-200 ${
+              className={`cursor-pointer transition-all duration-200 text-xs md:text-xs lg:text-sm ${
                 activeTab === "/my-list"
                   ? "text-white font-bold"
                   : "text-gray-300 hover:text-white"
@@ -116,7 +116,7 @@ const Navbar = () => {
               My List
             </li>
             <li
-              className={`cursor-pointer transition-all duration-200 ${
+              className={`cursor-pointer transition-all duration-200 text-xs md:text-xs lg:text-sm ${
                 activeTab === "/browse-by-language"
                   ? "text-white font-bold"
                   : "text-gray-300 hover:text-white"

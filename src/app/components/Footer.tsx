@@ -2,9 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer
-      className="bg-[#141414] py-12 px-8 md:px-16 lg:px-24 text-white/55 text-left mt-20 footer-text"
-    >
+    <footer className="bg-zinc-900 py-12 px-8 md:px-16 lg:px-24 text-white/55 text-left mt-10 footer-text">
       <div className="flex flex-col flex-start">
         {/* Social Media Icons */}
         <div className="flex justify-start gap-6 align-start mb-10 text-white">
@@ -72,9 +70,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Links */}
-        <div
-          className="grid grid-cols-2 md:grid-cols-4 gap-y-1 gap-x-12 px-4 align-start footer-text"
-        >
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-y-1 gap-x-12 px-4 align-start footer-text">
           <div>
             <Link
               href="/audio-description"
@@ -162,16 +158,12 @@ const Footer = () => {
 
         <div className="px-4 text-left">
           {/* Service Code Button */}
-          <button
-            className="border border-gray-400 px-4 py-1 mb-6 hover:text-gray-300 transition-colors inline-block w-fit footer-text"
-          >
+          <button className="border border-gray-400 px-4 py-1 mb-6 hover:text-gray-300 transition-colors inline-block w-fit footer-text">
             Service Code
           </button>
 
           {/* Copyright */}
-          <p className="text-left footer-text">
-            © 1997-2025 Netflix, Inc.
-          </p>
+          <p className="text-left footer-text">© 1997-2025 Netflix, Inc.</p>
         </div>
       </div>
     </footer>

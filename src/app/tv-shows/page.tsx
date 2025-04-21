@@ -135,10 +135,10 @@ const Home = () => {
                 />
                 {/* WordMark Icon */}
               </h1>
-              <div className="flex gap-4 w-full relative">
-                <div className="left-container flex flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 w-full relative">
+                <div className="left-container hidden sm:flex sm:flex-row gap-2 sm:gap-4 mx-4 sm:ml-14">
                   <button
-                    className="bg-white text-black text-sm font-medium  ml-14 p-1 pr-6 rounded py-0 hover:bg-gray-200 flex items-center gap-2"
+                    className="bg-white text-black text-xs sm:text-sm font-medium p-1 px-4 sm:pr-6 rounded-md flex items-center justify-center sm:justify-start gap-2 w-full sm:w-auto"
                     type="button"
                     onClick={toggleMute}
                   >
@@ -146,22 +146,22 @@ const Home = () => {
                     Play
                   </button>
                   <button
-                    className="backdrop-blur-md bg-white/30 hover:bg-white/10 text-white text-sm font-medium px-2 py-2 pr-6 rounded flex items-center align-middle gap-2 transition-all duration-300 border border-white/20"
+                    className="backdrop-blur-md bg-white/30 hover:bg-white/10 text-white text-xs sm:text-sm font-medium px-2 py-2 sm:pr-6 rounded-md flex items-center justify-center sm:justify-start gap-2 w-full sm:w-auto transition-all duration-300 border border-white/20"
                     type="button"
                   >
                     <InfoIcon />
                     More Info
                   </button>
                 </div>
-                <div className="right-container flex flex-row gap-4 items-center absolute right-0 bottom-2">
+                <div className="right-container flex flex-row gap-4 items-center absolute right-0 bottom-2 sm:bottom-auto">
                   <button
-                    className="backdrop-blur-md bg-black/40 hover:bg-black/60 relative right-28 text-white p-2 rounded-full border border-white/30 hover:border-white/50 transition-all duration-300 flex items-center gap-2"
+                    className="backdrop-blur-md  md:mr-28 bg-black/40 hover:bg-black/60 relative text-white p-2 rounded-full border border-white/30 hover:border-white/50 transition-all duration-300 flex items-center gap-2"
                     type="button"
                     onClick={toggleMute}
                   >
                     {isMuted ? <MuteIcon /> : <UnmuteIcon />}
                   </button>
-                  <div className="ratings-container text-sm flex flex-row items-center backdrop-blur-md bg-white/10 border-l-2 border-white/50 text-white px-6 py-2 absolute right-0 whitespace-nowrap">
+                  <div className="ratings-container text-xs sm:text-sm flex flex-row items-center backdrop-blur-md bg-white/10 border-l-2 border-white/50 text-white px-3 sm:px-6 py-1 sm:py-2 absolute right-0 whitespace-nowrap">
                     <span className="text-white">U/A 18+</span>
                   </div>
                 </div>
